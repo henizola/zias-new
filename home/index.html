@@ -4,6 +4,10 @@
 
 
 <head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.jsv"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -939,7 +943,39 @@
 								</div>
 								<!--removed from here-->
 								<section class="intro">
-									<h1>WHO WE ARE</h1>
+									<div class="owl-carousel logos-slider">
+										<div class="logos-slider__item">
+											<!-- загружаемые логотипы должны быть одного размера, их необходимо преварительно обработать -->
+											<img src="https://images.unsplash.com/photo-1496200186974-4293800e2c20?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
+												alt="logo alt" title="logo title" class="logos-slider__img">
+										</div>
+										<div class="logos-slider__item">
+											<!-- загружаемые логотипы должны быть одного размера, их необходимо преварительно обработать -->
+											<img src="https://images.unsplash.com/photo-1496200186974-4293800e2c20?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
+												alt="logo alt" title="logo title" class="logos-slider__img">
+										</div>
+										<div class="logos-slider__item">
+											<!-- загружаемые логотипы должны быть одного размера, их необходимо преварительно обработать -->
+											<img src="https://images.unsplash.com/photo-1496200186974-4293800e2c20?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
+												alt="logo alt" title="logo title" class="logos-slider__img">
+										</div>
+										<div class="logos-slider__item">
+											<!-- загружаемые логотипы должны быть одного размера, их необходимо преварительно обработать -->
+											<img src="https://images.unsplash.com/photo-1496200186974-4293800e2c20?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
+												alt="logo alt" title="logo title" class="logos-slider__img">
+										</div>
+										<div class="logos-slider__item">
+											<!-- загружаемые логотипы должны быть одного размера, их необходимо преварительно обработать -->
+											<img src="https://images.unsplash.com/photo-1496200186974-4293800e2c20?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
+												alt="logo alt" title="logo title" class="logos-slider__img">
+										</div>
+										<div class="logos-slider__item">
+											<!-- загружаемые логотипы должны быть одного размера, их необходимо преварительно обработать -->
+											<img src="https://images.unsplash.com/photo-1496200186974-4293800e2c20?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
+												alt="logo alt" title="logo title" class="logos-slider__img">
+										</div>
+									</div>
+									<h1 class="who-we-are">WHO WE ARE</h1>
 									<p
 										style="max-width:60vw;font-size:22px;padding-left:50px;padding-right:50px;text-align:justify;text-align-last:left ;">
 										ZIAS is a collective born out of the steadily developed aspirations of two
@@ -1617,7 +1653,22 @@
 			id='fusion-scripts-js'></script>
 	</div>
 
-
+	<script>$('.owl-carousel').owlCarousel({
+			loop: true,
+			margin: 10,
+			nav: true,
+			responsive: {
+				0: {
+					items: 1
+				},
+				600: {
+					items: 3
+				},
+				1000: {
+					items: 5
+				}
+			}
+		})</script>
 
 </body>
 

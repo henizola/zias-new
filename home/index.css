@@ -38,3 +38,44 @@ body{
     color:#fff;
 
 }
+
+.who-we-are{
+    padding-top:70px;
+    font-weight: 600!important;
+    color:#bcb832!important ;
+}
+
+.logos-slider
+  box-sizing: border-box
+  padding: 0 45px
+  position: relative
+  
+.logos-slider__item
+  box-sizing: border-box
+  padding: 15px
+  
+.logos-slider__img
+  box-shadow: 0 0 10px rgba(0,0,0,.5)
+  border-radius: 5px
+  
+.logos-slider__nav
+  position: absolute
+  background: transparent
+  outline: none
+  border: none
+  width: 50px
+  height: 50px
+  display: flex
+  align-items: center
+  justify-content: center
+  top: 50%
+  margin-top: -25px
+  cursor: pointer
+  &:hover
+    fill: blue
+
+.logos-slider__nav_prev
+  left: 15px
+
+.logos-slider__nav_next
+  right: 15px
