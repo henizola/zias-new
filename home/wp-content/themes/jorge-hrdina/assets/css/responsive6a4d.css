@@ -1,0 +1,475 @@
+@media screen and (min-width: 1921px){
+    #awardTimeline .timeline__body{
+        padding-left: calc((100% - 1640px - 30px) / 2);
+    }
+    
+}
+
+@media screen and (min-width: 1025px){
+    /* Pinned Section Start */
+
+    /* .panel{
+        position: absolute !important;
+        will-change: transform;
+        width: 100vw;
+    } */
+
+    /* Pinned Section End */
+    
+    .new-header{
+        background-color:white;
+        position:fixed;
+        width:100vw;
+        padding-bottom:5px;
+    }
+
+    .fusion-middle-logo-ul{
+        display: grid !important;
+        grid-template-columns:  1fr 105px  80px 100px 80px 105px 1fr;
+        grid-gap:20px;
+    }
+    
+    .fusion-middle-logo-menu-logo{
+        padding-right: 0 !important;
+        text-align: center;
+        cursor: auto !important;
+    }
+
+    .fusion-logo-link{
+        display: inline-block !important;
+    }
+    
+    .menu__about{
+        padding-right: 0 !important;
+        margin-right: -40px !important;
+    }
+    
+    .menu__contact a{
+        justify-content: flex-end !important;
+    }
+
+    .w820{
+        max-width: 820px;
+    }
+
+    .w420{
+        max-width: 420px;
+    }
+
+    .w480{
+        max-width: 480px;
+    }
+
+    .slider__control--wrapper{
+        display: none;
+    }
+
+    .sticky-element-original{
+        padding-bottom: 40px;
+    }
+
+    #map{
+        height: 600px;
+    }
+
+    .line__before{
+        display: none;
+    }
+
+    .col__left, 
+    .col__left .fusion-column-wrapper{
+        height: 100%;
+    }
+    
+    .col__left .fusion-column-wrapper{
+        justify-content: space-between !important;
+    }
+    
+    .view__all{
+        margin-bottom: 50px;
+    }
+
+    .col__right .view__all{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px){
+	
+	.flexslider ol.flex-control-nav.flex-control-paging{
+		margin-bottom: 0 !important;
+	}
+	
+	.flex-control-paging li a.flex-active{
+    	background: var(--color-black) !important;
+	}
+	
+	.fusion-body .flex-control-nav li{
+		border: 1px solid var(--color-black) !important;
+		margin: 0 2px !important;
+	}
+	
+	.flex-control-nav{
+		bottom: -40px !important;
+	}
+	
+	.flex-control-paging li a{
+		height: 4px !important;
+		width: 4px !important;
+	}
+
+    .play__showreel{
+        left: 0px !important;
+        visibility: visible !important;
+        top: 50vh !important;
+        opacity: 1 !important;
+        transform: scale(1, 1) !important;
+        -webkit-transform: scale(1, 1) !important;
+        -moz-transform: scale(1, 1) !important;
+        -ms-transform: scale(1, 1) !important;
+        -o-transform: scale(1, 1) !important;
+        z-index: 9998 !important;
+    }
+
+    .fusion-header-has-flyout-menu .fusion-flyout-menu-bg,
+    .fusion-header-has-flyout-menu .fusion-flyout-menu{
+        height: 100vh !important;
+    }
+
+    .scroll__down--more{
+        display: none !important;
+    }
+
+    .view__all{
+        margin-top: 40px;
+    }
+
+    .project__credits tr td:first-child{
+        padding-right: 0;
+    }
+
+    .projects__container{
+        padding-top: 5px;
+    }
+
+    .fusion-header-has-flyout-menu .fusion-flyout-menu .fusion-menu {
+        text-align: left !important;
+        margin: 0 auto;
+    }
+
+    .fusion-header-has-flyout-menu .fusion-flyout-menu .fusion-menu li:not(:last-child) {
+        border-bottom: 1px solid var(--color-grey);
+    }
+
+    .fusion-header-has-flyout-menu .fusion-flyout-menu .fusion-menu li a {
+        padding-left: 0;
+        font-size: 16px;
+        letter-spacing: 0.12em;
+        font-family: var(--font-din-regular);
+    }
+
+    .fusion-header-has-flyout-menu .fusion-flyout-menu-icons .fusion-toggle-icon-line{
+        height: 1px !important;
+    }
+
+    .page-template-100-width-light-header .fusion-header-wrapper,
+    .single-avada_portfolio .fusion-header-wrapper{
+        position: absolute !important;
+        left: 0;
+        right: 0;
+    }
+
+    .single-avada_portfolio .fusion-header-wrapper:not(.fusion-is-sticky) .fusion-header,
+    .page-template-100-width-light-header .fusion-header-wrapper:not(.fusion-is-sticky) .fusion-header{
+        background-color: transparent !important;
+    }
+
+    .single-avada_portfolio .fusion-header-wrapper:not(.fusion-is-sticky) .fusion-header-has-flyout-menu .fusion-flyout-menu-icons .fusion-toggle-icon-line,
+    .page-template-100-width-light-header .fusion-header-wrapper:not(.fusion-is-sticky) .fusion-header-has-flyout-menu .fusion-flyout-menu-icons .fusion-toggle-icon-line{
+        background-color: var(--color-white);
+    }
+
+    .home .fusion-flyout-menu-active .fusion-flyout-menu-icons .fusion-toggle-icon-line{
+        background-color: var(--color-black) !important;
+    }
+
+    .home .fusion-mobile-nav-holder .menu-text{
+        color: var(--color-black) !important;
+    }
+
+    .slider__control--wrapper{
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 30px;
+    }
+
+    .slider__control--wrapper .control__right {
+        height: 46px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        column-gap: 10px;
+    }
+
+    .slider__control--wrapper .control__previous, 
+    .slider__control--wrapper .control__next {
+        width: 36px;
+        height: 36px;
+        border: 1px solid var(--color-grey);
+        border-radius: 2px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        -ms-border-radius: 2px;
+        -o-border-radius: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slider__control--wrapper .control__previous:focus, 
+    .slider__control--wrapper .control__next:focus{
+        border-color: var(--color-white);
+    }
+
+    .slider__control--wrapper .control__previous, 
+    .slider__control--wrapper .control__next,
+    .slider__control--wrapper .control__previous svg path,  
+    .slider__control--wrapper .control__next svg path{
+        transition: 0.25s ease-in-out;
+        -webkit-transition: 0.25s ease-in-out;
+        -moz-transition: 0.25s ease-in-out;
+        -ms-transition: 0.25s ease-in-out;
+        -o-transition: 0.25s ease-in-out;
+    }
+
+    .slider__control--wrapper .control__previous:focus svg path,  
+    .slider__control--wrapper .control__next:focus svg path{
+        stroke: var(--color-white);
+    }
+
+    .slider__control--wrapper .control__right svg {
+        height: 26px;
+    }
+
+    .slider__control--wrapper .control__left .swiper-pagination {
+        width: 46px;
+        height: 46px;
+        position: relative;
+        text-align: left;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: auto;
+        padding-top: 20px;
+        color: var(--color-grey);
+    }
+
+    .project__details{
+        padding: 30px 30px 20px;
+    }
+
+    .project__details h3{
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -o-transform: translateY(0px);
+    }
+
+    .project__details--meta{
+        display: none;
+    }
+
+    .press__cards ul.fusion-grid{
+        margin-top: -15px !important;
+    }
+
+    .fusion-person .person-content{
+        margin-top: 15px;
+    }
+
+    .team__card .person-desc{
+        padding-top: 20px !important;
+    }
+
+    #related-projects .fusion-layout-column{
+        width: 100% !important;
+        min-width: 100% !important;
+        flex-direction: column;
+    }
+
+    .page__slider--content{
+        flex-direction: column;
+        row-gap: 60px;
+    }
+
+    .line__after{
+        display: none;
+    }
+
+    .link__right{
+        justify-content: center;
+    }
+
+    .timeline__slide{
+        visibility: visible !important;
+        backface-visibility: visible !important;
+        -webkit-backface-visibility: visible !important;
+    }
+
+    .col__left .view__all{
+        display: none;
+    }
+}
+/* Project credits */
+@media screen and (min-width: 768px){
+.project__credits.credit__head{
+	color: var(--color-white)  !important;
+	font-size:18px !important;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    #loader img{
+        width: 80vw;
+        max-width: 480px;
+    }
+
+    .projects__container, 
+    .project__slide,
+    .project__link{
+        height: 420px;
+    }
+
+    .project__details h3{
+        font-size: 24px !important;
+    }
+
+    .slider__control--wrapper .control__right{
+        margin-right: 35px;
+    }
+
+    .project__card,
+    .press__card{
+        padding-bottom: 20px !important;
+    }
+
+    #map{
+        height: 480px;
+    }
+
+    .w520\@m{
+        max-width: 520px;
+    }
+
+    #related-projects{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .page__slider h1{
+        font-size: 54px !important;
+    }
+
+    .full__slider--control{
+        padding-right: 65px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    #loader img{
+        width: 80vw;
+        max-width: 320px;
+    }
+
+    .page__slider h1{
+        font-size: 28px !important;
+    }
+
+    .projects__container, 
+    .project__slide,
+    .project__link{
+        height: 380px;
+    }
+
+    .project__card,
+    .press__card{
+        padding-top: 30px !important;
+        padding-bottom: 20px !important;
+    }
+
+    .quick__links--menu ul{
+        grid-template-columns: 1fr 1fr;
+        row-gap: 5px;
+    }
+
+    #map{
+        height: 320px;
+    }
+
+    .text__two--col{
+        columns: 100px 1 !important;   
+    }
+
+    .list__line ul{
+        grid-template-columns: 1fr;
+    }
+
+    .odd__list li:last-child{
+        display: none;
+    }
+
+    #related-projects{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .single-avada_portfolio #content{
+        margin-bottom: 0;
+    }
+
+    #related-projects .fusion-carousel-positioner{
+        margin-left: 0 !important;
+    }
+
+    #related-projects .fusion-carousel-wrapper{
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    #related-projects .fusion-carousel-holder{
+        display: grid;
+        row-gap: 40px;
+        position: relative !important;
+        width: auto !important;
+        height: auto !important;
+    }
+
+    #related-projects .fusion-carousel-holder .fusion-carousel-item{
+        width: 100% !important;
+        float: none !important;
+        margin-left: 0 !important;
+    }
+
+    .project__credits tr td{
+        font-size: 14px;
+    }
+
+    .credit{
+        display: block;
+    }
+	
+	.cat__menu{
+		padding-left: 0;
+		justify-content: flex-start;
+	}
+}
+/*custom css*/
+
+.header-linkss{
+    color:#bcb832!important;
+    font-weight:400;
+}
+
+
+
