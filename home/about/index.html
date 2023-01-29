@@ -6,7 +6,31 @@
 
 
 <head>
-
+	<link rel="stylesheet" href="../projects/index.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+	<link rel="stylesheet" href="./index.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="./index.css">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=Orbitron:wght@400;500;600;700;800;900&display=swap"
+		rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=Orbitron:wght@400;500;600;700;800;900&display=swap"
+		rel="stylesheet">
+	<style>
+		* {
+			font-family: 'Montserrat', sans-serif !important;
+		}
+	</style>
+	<link rel="stylesheet" href="./index.css">
+	<link rel="stylesheet" href="../index.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<style id="awlb-live-editor">
 		.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav>li.fusion-branding .fusion-builder-logo-wrapper .fusiona-avada-logo {
@@ -45,8 +69,7 @@
 	<link rel='dns-prefetch' href='http://unpkg.com/' />
 	<link rel='dns-prefetch' href='http://cdnjs.cloudflare.com/' />
 	<link rel='dns-prefetch' href='http://cdn.jsdelivr.net/' />
-	<link rel="alternate" type="application/rss+xml"
-		href="../feed/index.html" />
+	<link rel="alternate" type="application/rss+xml" href="../feed/index.html" />
 	<link rel="alternate" type="application/rss+xml" title="ZIAS" href="../comments/feed/index.html" />
 	<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
@@ -793,8 +816,11 @@
 				<div
 					class="fusion-header-v7 fusion-logo-alignment fusion-logo-left fusion-sticky-menu- fusion-sticky-logo- fusion-mobile-logo-  fusion-mobile-menu-design-flyout fusion-header-has-flyout-menu">
 					<div class="fusion-header-sticky-height"></div>
-					<div class="fusion-header  fusion-animated " data-animationtype="fadeInUp"
-						data-animationduration="1.5" data-animationoffset="top-into-view">
+					<div class="new-header" style="
+		background-color:white!important;
+		position:fixed!important;top:0!important;
+		width:100vw;
+		">
 						<div class="fusion-row fusion-middle-logo-menu">
 							<div class="fusion-header-has-flyout-menu-content">
 								<nav class="fusion-main-menu fusion-main-menu-sticky" aria-label="Main Menu">
@@ -827,17 +853,18 @@
 											aria-label="Close Search" class="fusion-close-search"></a>
 									</div>
 									<ul id="menu-main-menu" class="fusion-menu fusion-middle-logo-ul">
+										<li></li>
 										<li id="menu-item-24"
 											class="menu__project menu-item menu-item-type-post_type menu-item-object-page menu-item-24"
 											data-classes="menu__project" data-item-id="24"><a
 												href="../projects/index.html"
 												class="fusion-top-level-link fusion-textcolor-highlight"><span
-													class="menu-text">Projects</span></a></li>
+													class='header-linkss'>Projects</span></a></li>
 										<li id="menu-item-23"
 											class="menu__press menu-item menu-item-type-post_type menu-item-object-page menu-item-23"
-											data-classes="menu__press" data-item-id="23"><a href="../services/index.html"
+											data-classes="menu__press" data-item-id="23"><a href="../services/"
 												class="fusion-top-level-link fusion-textcolor-highlight"><span
-													class="menu-text">Services</span></a></li>
+													class='header-linkss'>Services</span></a></li>
 										<li class="fusion-middle-logo-menu-logo fusion-logo" data-margin-top="20px"
 											data-margin-bottom="20px" data-margin-left="0px" data-margin-right="0px">
 											<a class="fusion-logo-link" href="../index.html">
@@ -850,16 +877,16 @@
 											</a>
 										</li>
 										<li id="menu-item-20"
-											class="menu__about menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-11 current_page_item menu-item-20"
-											data-classes="menu__about" data-item-id="20"><a href="index.html"
+											class="menu__about menu-item menu-item-type-post_type menu-item-object-page menu-item-20"
+											data-classes="menu__about" data-item-id="20"><a href="../about/index.html"
 												class="fusion-top-level-link fusion-textcolor-highlight"><span
-													class="menu-text">About</span></a></li>
+													class='header-linkss'>About</span></a></li>
 										<li id="menu-item-21"
 											class="menu__contact menu-item menu-item-type-post_type menu-item-object-page menu-item-21"
 											data-classes="menu__contact" data-item-id="21"><a
 												href="../contact/index.html"
 												class="fusion-top-level-link fusion-textcolor-highlight"><span
-													class="menu-text">Contact</span></a></li>
+													class='header-linkss'>Contact</span></a></li>
 									</ul>
 								</nav>
 								<div class="fusion-flyout-menu-icons fusion-flyout-mobile-menu-icons">
@@ -875,29 +902,14 @@
 								</div>
 
 
-								<div class="fusion-flyout-menu-bg"></div>
 
-								<nav class="fusion-mobile-nav-holder fusion-flyout-menu fusion-flyout-mobile-menu"
-									aria-label="Main Menu Mobile"></nav>
+
+
 
 							</div>
 						</div>
 					</div>
 
-					<div class="scroll__down--more">
-						<div class="scroll__down fusion-animated" data-animationtype="fadeIn"
-							data-animationduration="1.5" data-animationoffset="top-into-view">
-							<span class="scroll__label">SCROLL DOWN</span>
-							<span class="scroll__arrow">
-								<svg xmlns="http://www.w3.org/2000/svg" width="9.371" height="5.392"
-									viewBox="0 0 9.371 5.392">
-									<path d="M668.265,969.025l4.332,4.332-4.332,4.332"
-										transform="translate(978.042 -667.911) rotate(90)" fill="none" stroke="#000"
-										stroke-width="1"></path>
-								</svg>
-							</span>
-						</div>
-					</div>
 				</div>
 				<div class="fusion-clearfix"></div>
 			</header>
@@ -919,195 +931,27 @@
 										rel="author">made-agency</a></span></span><span
 								class="updated rich-snippet-hidden">2022-11-19T11:56:08+11:00</span>
 							<div class="post-content">
-								<div class="fusion-fullwidth fullwidth-box fusion-builder-row-1 fusion-flex-container fullwidth__section push__awards nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"
-									style="background-color: var(--awb-color1);background-position: center center;background-repeat: no-repeat;border-width: 0px 0px 0px 0px;border-color:var(--awb-color3);border-style:solid;">
-									<div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-align-content-center"
-										style="max-width:1705.6px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );">
-										<div class="fusion-layout-column fusion_builder_column fusion-builder-column-0 fusion_builder_column_1_3 1_3 fusion-flex-column fusion-animated"
-											data-animationType="fadeInUp" data-animationDuration="1.5"
-											data-animationOffset="top-into-view">
-											<div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column"
-												style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding: 0px 0px 0px 0px;">
-												<style type="text/css">
-													@media only screen and (max-width:1024px) {
-														.fusion-title.fusion-title-1 {
-															margin-top: !important;
-															margin-right: !important;
-															margin-bottom: 30px !important;
-															margin-left: !important;
-														}
-													}
+								<section class="intro">
 
-													@media only screen and (max-width:640px) {
-														.fusion-title.fusion-title-1 {
-															margin-top: 10px !important;
-															margin-right: 0px !important;
-															margin-bottom: 20px !important;
-															margin-left: 0px !important;
-														}
-													}
-												</style>
-												<div class="fusion-title title fusion-title-1 fusion-sep-none fusion-title-text fusion-title-size-one sticky__heading--about"
-													style="font-size:var(--awb-typography5-font-size);margin-top:0px;margin-right:0px;margin-bottom:60px;margin-left:0px;">
-													<h1 class="title-heading-left fusion-responsive-typography-calculated"
-														style="font-family:var(--awb-typography5-font-family);font-weight:var(--awb-typography5-font-weight);font-style:var(--awb-typography5-font-style);margin:0;font-size:1em;letter-spacing:var(--awb-typography5-letter-spacing);text-transform:uppercase;color:var(--awb-color8);--fontSize:14;--minFontSize:var(--awb-typography5-font-size);line-height:var(--awb-typography5-line-height);">
-														‘About us’</h1>
-												</div>
-											</div>
-											<style type="text/css">
-												.fusion-body .fusion-builder-column-0 {
-													width: 33.3333333333% !important;
-													margin-top: 0px;
-													margin-bottom: 20px;
-												}
 
-												.fusion-builder-column-0>.fusion-column-wrapper {
-													padding-top: 0px !important;
-													padding-right: 0px !important;
-													margin-right: 5.76%;
-													padding-bottom: 0px !important;
-													padding-left: 0px !important;
-													margin-left: 5.76%;
-												}
-
-												@media only screen and (max-width:1024px) {
-													.fusion-body .fusion-builder-column-0 {
-														width: 100% !important;
-														order: 0;
-													}
-
-													.fusion-builder-column-0>.fusion-column-wrapper {
-														margin-right: 1.92%;
-														margin-left: 1.92%;
-													}
-												}
-
-												@media only screen and (max-width:640px) {
-													.fusion-body .fusion-builder-column-0 {
-														width: 100% !important;
-														order: 0;
-													}
-
-													.fusion-builder-column-0>.fusion-column-wrapper {
-														margin-right: 1.92%;
-														margin-left: 1.92%;
-													}
-												}
-											</style>
-										</div>
-										<div
-											class="fusion-layout-column fusion_builder_column fusion-builder-column-1 fusion_builder_column_1_2 1_2 fusion-flex-column">
-											<div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column"
-												style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding: 0px 0px 0px 0px;">
-												<style type="text/css">
-													@media only screen and (max-width:1024px) {
-														.fusion-title.fusion-title-2 {
-															margin-top: -10px !important;
-															margin-right: 0px !important;
-															margin-bottom: 0px !important;
-															margin-left: 0px !important;
-														}
-													}
-
-													@media only screen and (max-width:640px) {
-														.fusion-title.fusion-title-2 {
-															margin-top: 10px !important;
-															margin-right: 0px !important;
-															margin-bottom: 10px !important;
-															margin-left: 0px !important;
-														}
-													}
-												</style>
-												<div class="fusion-title title fusion-title-2 fusion-sep-none fusion-title-text fusion-title-size-two fusion-animated"
-													style="font-size:var(--awb-typography1-font-size);margin-top:-10px;margin-right:0px;margin-bottom:0px;margin-left:0px;"
-													data-animationType="fadeInUp" data-animationDuration="1.5"
-													data-animationOffset="top-into-view">
-													<h2 class="title-heading-left fusion-responsive-typography-calculated"
-														style="font-family:var(--awb-typography1-font-family);font-weight:var(--awb-typography1-font-weight);font-style:var(--awb-typography1-font-style);margin:0;font-size:0.5em;letter-spacing:var(--awb-typography1-letter-spacing);--fontSize:48;line-height:1.5em;">
-														ZIAS is a collective born out of the steadily developed
-														aspirations of two brothers in the hope of carrying the
-														ideological brilliance behind design and balance for the growth
-														and development of public and private infrastructure in Africa
-														and the world. We have been able to bring forth immaculate
-														designs with the joint expertise of Architecture and Structural
-														Engineering. We strive to bring the next new and well-built
-														craft that addresses the interests of our clients while
-														considering the environment.</h2>
-												</div>
-											</div>
-											<style type="text/css">
-												.fusion-body .fusion-builder-column-1 {
-													width: 50% !important;
-													margin-top: 0px;
-													margin-bottom: 0px;
-												}
-
-												.fusion-builder-column-1>.fusion-column-wrapper {
-													padding-top: 0px !important;
-													padding-right: 0px !important;
-													margin-right: 3.84%;
-													padding-bottom: 0px !important;
-													padding-left: 0px !important;
-													margin-left: 3.84%;
-												}
-
-												@media only screen and (max-width:1024px) {
-													.fusion-body .fusion-builder-column-1 {
-														width: 100% !important;
-														order: 0;
-														margin-bottom: 60px;
-													}
-
-													.fusion-builder-column-1>.fusion-column-wrapper {
-														margin-right: 1.92%;
-														margin-left: 1.92%;
-													}
-												}
-
-												@media only screen and (max-width:640px) {
-													.fusion-body .fusion-builder-column-1 {
-														width: 100% !important;
-														order: 0;
-														margin-bottom: 50px;
-													}
-
-													.fusion-builder-column-1>.fusion-column-wrapper {
-														margin-right: 1.92%;
-														margin-left: 1.92%;
-													}
-												}
-											</style>
-										</div>
-									</div>
-									<style type="text/css">
-										.fusion-body .fusion-flex-container.fusion-builder-row-1 {
-											padding-top: 180px;
-											margin-top: 0px;
-											padding-right: 30px;
-											padding-bottom: 155px;
-											margin-bottom: 0px;
-											padding-left: 30px;
-											min-height: 100vh;
-										}
-
-										@media only screen and (max-width:1024px) {
-											.fusion-body .fusion-flex-container.fusion-builder-row-1 {
-												padding-top: 180px;
-												padding-bottom: 60px;
-												min-height: auto;
-											}
-										}
-
-										@media only screen and (max-width:640px) {
-											.fusion-body .fusion-flex-container.fusion-builder-row-1 {
-												padding-top: 120px;
-												padding-bottom: 30px;
-											}
-										}
-									</style>
-								</div>
+									<h1 class="who-we-are">WHO WE ARE</h1>
+									<p class="about-p">
+										ZIAS is a collective born out of the steadily developed aspirations of
+										two
+										brothers in the hope of carrying the ideological brilliance behind
+										design and
+										balance for the growth and development of public and private
+										infrastructure in
+										Africa and the world. We have been able to bring forth immaculate
+										designs with
+										the joint expertise of Architecture and Structural Engineering. We
+										strive to
+										bring the next new and well-built craft that addresses the interests of
+										our
+										clients while considering the environment.</p>
+								</section>
 								<div class="fusion-fullwidth fullwidth-box fusion-builder-row-2 fusion-flex-container push__about nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"
-									style="background-color: var(--awb-color3);background-position: center center;background-repeat: no-repeat;border-width: 0px 0px 0px 0px;border-color:var(--awb-color3);border-style:solid;">
+									style="background-color: #bcb832;background-position: center center;background-repeat: no-repeat;border-width: 0px 0px 0px 0px;border-color:var(--awb-color3);border-style:solid;">
 									<div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start"
 										style="max-width:1705.6px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );">
 
@@ -1138,9 +982,11 @@
 
 													<div>
 
-														<h2 style="text-align:center;width:100%;margin-top:50px">
+														<h2
+															style="text-align:center;width:100%;margin-top:50px;color:#fff;font-size: 38px;font-weight: 600;">
 															Principle</h2>
-														<p>
+														<p
+															style="color: #fff;text-align:justify!important;text-align-last: center;">
 															ZIAS is a realm of work, creativity, and collaboration.
 															Experts
 															from different disciplines within the architecture and
@@ -1151,18 +997,24 @@
 
 													</div>
 													<div>
-														<h2 style="text-align:center;width:100%;margin-top:50px">Vision
+														<h2
+															style="text-align:center;width:100%;margin-top:50px;color:#fff;font-size: 38px;font-weight: 600;">
+															Vision
 														</h2>
-														<p>Constructing structures and designs
+														<p
+															style="color: #fff;text-align:justify!important;text-align-last: center;">
+															Constructing structures and designs
 															that enable people to
 															live
 															their lives in a more refined and simpler way.</p>
 
 													</div>
 													<div>
-														<h2 style="text-align:center;width:100%;margin-top:50px">
+														<h2
+															style="text-align:center;width:100%;margin-top:50px;color:#fff;font-size: 38px;font-weight: 600;">
 															Mission</h2>
-														<p>
+														<p
+															style="color: #fff;text-align:justify!important;text-align-last: center;">
 															A world where organizations/people/ Communities are
 															encouraged
 															and motivated by their context (constructed entity), no
@@ -1247,1278 +1099,184 @@
 										}
 									</style>
 								</div>
-								<div class="fusion-fullwidth fullwidth-box fusion-builder-row-3 fusion-flex-container push__ethos nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"
-									style="background-color: var(--awb-color1);margin-top:100px;background-position: center center;background-repeat: no-repeat;border-width: 0px 0px 0px 0px;border-color:var(--awb-color3);border-style:solid;">
-									<div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start"
-										style="max-width:1705.6px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );">
-										<div
-											class="fusion-layout-column fusion_builder_column fusion-builder-column-4 fusion_builder_column_1_3 1_3 fusion-flex-column">
-											<div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column"
-												style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding: 0px 0px 0px 0px;">
-												<style type="text/css">
-													@media only screen and (max-width:1024px) {
-														.fusion-title.fusion-title-5 {
-															margin-top: 0px !important;
-															margin-right: 0px !important;
-															margin-bottom: 15px !important;
-															margin-left: 0px !important;
-														}
-													}
 
-													@media only screen and (max-width:640px) {
-														.fusion-title.fusion-title-5 {
-															margin-top: 10px !important;
-															margin-right: 0px !important;
-															margin-bottom: 10px !important;
-															margin-left: 0px !important;
-														}
-													}
-												</style>
-												<div class="fusion-title title fusion-title-5 fusion-sep-none fusion-title-text fusion-title-size-two sticky__heading--team"
-													style="font-size:var(--awb-typography5-font-size);margin-top:0px;margin-right:0px;margin-bottom:15px;margin-left:0px;">
-													<h2 class="title-heading-left fusion-responsive-typography-calculated"
-														style="font-family:var(--awb-typography5-font-family);font-weight:var(--awb-typography5-font-weight);font-style:var(--awb-typography5-font-style);margin:0;font-size:1em;letter-spacing:var(--awb-typography5-letter-spacing);--fontSize:14;--minFontSize:var(--awb-typography5-font-size);line-height:var(--awb-typography5-line-height);">
-														LEADERSHIP TEAM</h2>
-												</div>
+								<div class="team">
+									<h1 class="who-we-are" style="margin-bottom: 70px;">Our Team</h1>
+									<div class="top-flex">
+
+
+										<div class="single">
+											<img src="../wp-content/uploads/2022/team/danny-bw_orig.jpg" alt=""
+												class="managers">
+											<div class="info" style=" padding-top: 10px; padding-right: 30px; ">
+												<!--pointin fixpoint-->
+
+												<h2 class="f-s-1" style="margin: 0px;">
+													Dereje Assefa</h2>
+												<small style="color: gray;"><span>PE, PPSTE, LEED AP BD+C</span></small>
 
 											</div>
-											<style type="text/css">
-												.fusion-body .fusion-builder-column-4 {
-													width: 18.3333333333% !important;
-													margin-top: 0px;
-													margin-bottom: 20px;
-												}
-
-												.fusion-builder-column-4>.fusion-column-wrapper {
-													padding-top: 0px !important;
-													padding-right: 0px !important;
-													margin-right: 5.76%;
-													padding-bottom: 0px !important;
-													padding-left: 0px !important;
-													margin-left: 5.76%;
-												}
-
-												@media only screen and (max-width:1024px) {
-													.fusion-body .fusion-builder-column-4 {
-														width: 100% !important;
-														order: 0;
-													}
-
-													.fusion-builder-column-4>.fusion-column-wrapper {
-														margin-right: 1.92%;
-														margin-left: 1.92%;
-													}
-												}
-
-												@media only screen and (max-width:640px) {
-													.fusion-body .fusion-builder-column-4 {
-														width: 100% !important;
-														order: 0;
-													}
-
-													.fusion-builder-column-4>.fusion-column-wrapper {
-														margin-right: 1.92%;
-														margin-left: 1.92%;
-													}
-												}
-											</style>
+											<p
+												style="text-align: justify;text-align-last: left;margin-top:10px;font-weight: 300;">
+												Dereje
+												Assefa is one
+												of the founding brothers of Zias, currently working
+												as
+												Principal and Managing Director. He is a licensed structural engineer in
+												Ethiopia and the USA with a Master's Degree in Engineering from the
+												Massachusetts Institute of Technology (MIT). He enhanced his skill with
+												professional registrations in several states, including Massachusetts,
+												New
+												York, Virginia, and Delaware, building professionalism with over 27
+												years of
+												experience leading projects in the African market.</p>
 										</div>
-										<div
-											class="fusion-layout-column fusion_builder_column fusion-builder-column-5 fusion_builder_column_1_3 1_3 fusion-flex-column">
-											<div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column"
-												style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding: 0px 0px 0px 0px;">
-												<div><span
-														class=" fusion-imageframe imageframe-none imageframe-1 hover-type-none fusion-animated"
-														data-animationType="fadeInUp" data-animationDuration="1.5"
-														data-animationOffset="top-into-view"><img decoding="async"
-															width="984" height="1264" alt="" title=""
-															src="../wp-content/uploads/2022/team/danny-bw_orig.jpg"
-															class="img-responsive wp-image-290"
-															srcset="../wp-content/uploads/2022/team/danny-bw_orig.jpg 200w, ../wp-content/uploads/2022/team/danny-bw_orig.jpg 400w, ../wp-content/uploads/2022/team/danny-bw_orig.jpg 600w, ../wp-content/uploads/2022/team/danny-bw_orig.jpg 800w, ../wp-content/uploads/2022/team/danny-bw_orig.jpg 984w"
-															sizes="(max-width: 640px) 100vw, 600px" /></span></div>
+
+										<div class="single">
+											<img src="../wp-content/uploads/2022/team/dj-1_orig.jpg" alt=""
+												class="managers">
+											<div class="info" style=" padding-top: 10px; padding-right: 30px; ">
+												<!--pointin fixpoint-->
+
+												<h2 class="f-s-1" style="margin: 0px;">
+													Daniel Assefa</h2>
+												<small style="color: gray;">AIA, PPAR<span></span></small>
+
 											</div>
-											<style type="text/css">
-												.fusion-body .fusion-builder-column-5 {
-													width: 40.3333333333% !important;
-													margin-top: 0px;
-													margin-bottom: 20px;
-												}
-
-												.fusion-builder-column-5>.fusion-column-wrapper {
-													padding-top: 0px !important;
-													padding-right: 0px !important;
-													margin-right: 5.76%;
-													padding-bottom: 0px !important;
-													padding-left: 0px !important;
-													margin-left: 5.76%;
-												}
-
-												@media only screen and (max-width:1024px) {
-													.fusion-body .fusion-builder-column-5 {
-														width: 100% !important;
-														order: 0;
-														margin-bottom: 40px;
-													}
-
-													.fusion-builder-column-5>.fusion-column-wrapper {
-														margin-right: 1.92%;
-														margin-left: 1.92%;
-													}
-												}
-
-												@media only screen and (max-width:640px) {
-													.fusion-body .fusion-builder-column-5 {
-														width: 100% !important;
-														order: 0;
-														margin-bottom: 30px;
-													}
-
-													.fusion-builder-column-5>.fusion-column-wrapper {
-														margin-right: 1.92%;
-														margin-left: 1.92%;
-													}
-												}
-											</style>
+											<p
+												style="text-align: justify;text-align-last: left;margin-top:10px;font-weight: 300;">
+												Daniel Assefa has been the Principal and Director of Architecture at
+												ZIAS for over a decade. He has a Bachelor of Architecture from Virginia
+												Polytechnic and State University and is a member of the American
+												Institute of Architects with architecture licenses in Ethiopia and
+												several states in the USA. He has been perfecting his skills through 28
+												years of experience at several global and boutique firms, including TAMS
+												Consultants, Earth Tech, and Leclere Associates in New York City.</p>
 										</div>
-										<div
-											class="fusion-layout-column fusion_builder_column fusion-builder-column-6 fusion_builder_column_1_3 1_3 fusion-flex-column">
-											<div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column"
-												style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding: 0px 0px 0px 0px;">
-												<style type="text/css">
-													@media only screen and (max-width:1024px) {
-														.fusion-title.fusion-title-6 {
-															margin-top: -5px !important;
-															margin-right: 0px !important;
-															margin-bottom: 10px !important;
-															margin-left: 0px !important;
-														}
-													}
 
-													@media only screen and (max-width:640px) {
-														.fusion-title.fusion-title-6 {
-															margin-top: 10px !important;
-															margin-right: 0px !important;
-															margin-bottom: 10px !important;
-															margin-left: 0px !important;
-														}
-													}
-												</style>
-												<div class="fusion-title title fusion-title-6 fusion-sep-none fusion-title-text fusion-title-size-three fusion-animated"
-													style="font-size:var(--awb-typography3-font-size);margin-top:-5px;margin-right:0px;margin-bottom:10px;margin-left:0px;"
-													data-animationType="fadeInUp" data-animationDuration="1.5"
-													data-animationOffset="top-into-view">
-													<h3 class="title-heading-left fusion-responsive-typography-calculated"
-														style="font-family:&quot;DIN Regular&quot;;font-weight:400;margin:0;font-size:1em;letter-spacing:var(--awb-typography3-letter-spacing);--fontSize:20;line-height:var(--awb-typography3-line-height);">
-														Dereje Assefa</h3>
-												</div>
-												<style type="text/css">
-													@media only screen and (max-width:1024px) {
-														.fusion-title.fusion-title-7 {
-															margin-top: 0px !important;
-															margin-right: 0px !important;
-															margin-bottom: 25px !important;
-															margin-left: 0px !important;
-														}
-													}
+									</div>
 
-													@media only screen and (max-width:640px) {
-														.fusion-title.fusion-title-7 {
-															margin-top: 10px !important;
-															margin-right: 0px !important;
-															margin-bottom: 30px !important;
-															margin-left: 0px !important;
-														}
-													}
-												</style>
-												<div class="fusion-title title fusion-title-7 fusion-sep-none fusion-title-text fusion-title-size-four fusion-animated"
-													style="font-size:var(--awb-typography5-font-size);margin-top:0px;margin-right:0px;margin-bottom:25px;margin-left:0px;"
-													data-animationType="fadeInUp" data-animationDuration="1.5"
-													data-animationOffset="top-into-view">
-													<h4 class="title-heading-left fusion-responsive-typography-calculated"
-														style="font-family:var(--awb-typography5-font-family);font-weight:var(--awb-typography5-font-weight);font-style:var(--awb-typography5-font-style);margin:0;font-size:1em;letter-spacing:var(--awb-typography5-letter-spacing);--fontSize:14;--minFontSize:var(--awb-typography5-font-size);line-height:var(--awb-typography5-line-height);">
-														PE, PPSTE, LEED AP BD+C</h4>
-												</div>
-												<div class="fusion-text fusion-text-2 fusion-animated"
-													data-animationType="fadeInUp" data-animationDuration="1.5"
-													data-animationOffset="top-into-view">
-													<p>Dereje Assefa is one of the founding brothers of Zias, currently
-														working as Principal and Managing Director. He is a licensed
-														structural engineer in Ethiopia and the USA with a Master's
-														Degree in Engineering from the Massachusetts Institute of
-														Technology (MIT). He enhanced his skill with professional
-														registrations in several states, including Massachusetts, New
-														York, Virginia, and Delaware, building professionalism with over
-														27 years of experience leading projects in the African market.
-													</p>
+									<div class="bottom-flex">
+										<div class="single">
+											<img src="../wp-content/uploads/2022/new-asset/default.jpg" alt=""
+												class="members">
+											<div class="info" style=" padding-top: 10px; padding-right: 30px; ">
+												<!--pointin fixpoint-->
 
-												</div>
+												<h2 class="f-s-1" style="margin: 0px;">
+													Kassahun Worku</h2>
+												<small style="color: gray;"><span>PE | PROJECT MANAGEMENT AND
+														EXECUTION</span></small>
 
 											</div>
-											<style type="text/css">
-												.fusion-body .fusion-builder-column-6 {
-													width: 40.3333333333% !important;
-													margin-top: 0px;
-													margin-bottom: 20px;
-												}
+											<p
+												style="text-align: justify;text-align-last: left;margin-top:10px;font-weight: 300;">
+												Kassahun Worku is our Project Management and Execution Director. He
+												graduated with a Master's Degree in Civil Engineering from the College
+												of Architecture and Civil Engineering in Weimar, Germany. He has worked
+												on a variety of projects and infrastructures like building complexes,
+												dams, rural roads, water engineering, and landscaping with over 24 years
+												of experience.</p>
+										</div>
+										<div class="single">
+											<img src="../wp-content/uploads/2022/new-asset/default.jpg" alt=""
+												class="members">
+											<div class="info" style=" padding-top: 10px; padding-right: 30px; ">
+												<!--pointin fixpoint-->
 
-												.fusion-builder-column-6>.fusion-column-wrapper {
-													padding-top: 0px !important;
-													padding-right: 0px !important;
-													margin-right: 5.76%;
-													padding-bottom: 0px !important;
-													padding-left: 0px !important;
-													margin-left: 5.76%;
-												}
+												<h2 class="f-s-1" style="margin: 0px;">
+													Benyam Mengistu</h2>
+												<small style="color: gray;"><span>PPAR | ARCHITECTURE</span></small>
 
-												@media only screen and (max-width:1024px) {
-													.fusion-body .fusion-builder-column-6 {
-														width: 100% !important;
-														order: 0;
-													}
+											</div>
+											<p
+												style="text-align: justify;text-align-last: left;margin-top:10px;font-weight: 300;">
+												Benyam Mengistu is a director of architecture with a bachelor's degree
+												in architecture from Addis Abeba University and is certified as a
+												practicing professional architect. He is licensed to practice in
+												Ethiopia, where he has been cultivating his skills with over 25 years of
+												experience.</p>
+										</div>
+										<div class="single">
+											<img src="../wp-content/uploads/2022/new-asset/default.jpg" alt=""
+												class="members">
+											<div class="info" style=" padding-top: 10px; padding-right: 30px; ">
+												<!--pointin fixpoint-->
 
-													.fusion-builder-column-6>.fusion-column-wrapper {
-														margin-right: 1.92%;
-														margin-left: 1.92%;
-													}
-												}
+												<h2 class="f-s-1" style="margin: 0px;">
+													Daniel Getachew</h2>
+												<small style="color: gray;"><span>
+														PPSTE | STRUCTURES</span></small>
 
-												@media only screen and (max-width:640px) {
-													.fusion-body .fusion-builder-column-6 {
-														width: 100% !important;
-														order: 0;
-													}
+											</div>
+											<p
+												style="text-align: justify;text-align-last: left;margin-top:10px;font-weight: 300;">
+												Daniel Getachew is a director of structural engineering with a Master's
+												Degree in structural engineering from Addis Ababa University, Institute
+												of Technology. He is licensed to practice in Ethiopia with a glocal
+												experience of 16 years, both in African and European engineering,
+												bringing international insights into our projects.</p>
+										</div>
+										<div class="single">
+											<img src="../wp-content/uploads/2022/new-asset/default.jpg" alt=""
+												class="members">
+											<div class="info" style=" padding-top: 10px; padding-right: 30px; ">
+												<!--pointin fixpoint-->
 
-													.fusion-builder-column-6>.fusion-column-wrapper {
-														margin-right: 1.92%;
-														margin-left: 1.92%;
-													}
-												}
-											</style>
+												<h2 class="f-s-1" style="margin: 0px;">
+													Azeb Lakew</h2>
+												<small style="color: gray;"><span>
+
+														PPECM | CONTRACT ADMINISTRATION</span></small>
+
+											</div>
+											<p
+												style="text-align: justify;text-align-last: left;margin-top:10px;font-weight: 300;">
+
+												Azeb Lakew is the Director of Contract Administration. She is a holder
+												of a Master’s degree in Business Administration in Construction
+												Management from Addis Ababa Science and Technology University (AASTU)
+												with a license as a Practicing Professional Engineer in Construction
+												Management (PPECM) in Ethiopia. With over 25 years of experience, she
+												has a solid reputation for maintaining and implementing equitable
+												contrast that guarantees a healthy relationship with our customers.</p>
+										</div>
+										<div class="single">
+											<img src="../wp-content/uploads/2022/new-asset/default.jpg" alt=""
+												class="members">
+											<div class="info" style=" padding-top: 10px; padding-right: 30px; ">
+												<!--pointin fixpoint-->
+
+												<h2 class="f-s-1" style="margin: 0px;">
+													Armstrong Tilahun</h2>
+												<small style="color: gray;"><span>
+
+
+														PECTM | Quantity Surveying</span></small>
+
+											</div>
+											<p
+												style="text-align: justify;text-align-last: left;margin-top:10px;font-weight: 300;">
+
+
+												Armstrong Tilahun is the Director of Quantity Surveying. He graduated
+												with a bachelor's degree in building construction and city development
+												from Addis Ababa University, Ethiopian Institute of Architecture. He has
+												a multi-disciplinary experience of over 28 years in the construction,
+												architecture, and engineering industries, practicing both in the
+												Ethiopian and African engineering industries.</p>
 										</div>
 									</div>
-									<style type="text/css">
-										.fusion-body .fusion-flex-container.fusion-builder-row-3 {
-											padding-top: 180px;
-											margin-top: 0px;
-											padding-right: 30px;
-											padding-bottom: 60px;
-											margin-bottom: 0px;
-											padding-left: 30px;
-										}
-
-										@media only screen and (max-width:1024px) {
-											.fusion-body .fusion-flex-container.fusion-builder-row-3 {
-												padding-top: 80px;
-												padding-bottom: 30px;
-											}
-										}
-
-										@media only screen and (max-width:640px) {
-											.fusion-body .fusion-flex-container.fusion-builder-row-3 {
-												padding-top: 40px;
-												padding-bottom: 20px;
-											}
-										}
-									</style>
 								</div>
 
 
 
 
 
-								<div class="fusion-fullwidth fullwidth-box fusion-builder-row-3 fusion-flex-container push__ethos nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"
-									style="background-color: var(--awb-color1);background-position: center center;background-repeat: no-repeat;border-width: 0px 0px 0px 0px;border-color:var(--awb-color3);border-style:solid;">
-									<div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start"
-										style="max-width:1705.6px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );">
-										<div
-											class="fusion-layout-column fusion_builder_column fusion-builder-column-4 fusion_builder_column_1_3 1_3 fusion-flex-column">
-											<div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column"
-												style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding: 0px 0px 0px 0px;">
-												<style type="text/css">
-													@media only screen and (max-width:1024px) {
-														.fusion-title.fusion-title-5 {
-															margin-top: 0px !important;
-															margin-right: 0px !important;
-															margin-bottom: 15px !important;
-															margin-left: 0px !important;
-														}
-													}
 
-													@media only screen and (max-width:640px) {
-														.fusion-title.fusion-title-5 {
-															margin-top: 10px !important;
-															margin-right: 0px !important;
-															margin-bottom: 10px !important;
-															margin-left: 0px !important;
-														}
-													}
-												</style>
-												<div class="fusion-title title fusion-title-5 fusion-sep-none fusion-title-text fusion-title-size-two sticky__heading--team"
-													style="font-size:var(--awb-typography5-font-size);margin-top:0px;margin-right:0px;margin-bottom:15px;margin-left:0px;">
-													<h2 class="title-heading-left fusion-responsive-typography-calculated"
-														style="font-family:var(--awb-typography5-font-family);font-weight:var(--awb-typography5-font-weight);font-style:var(--awb-typography5-font-style);margin:0;font-size:1em;letter-spacing:var(--awb-typography5-letter-spacing);--fontSize:14;--minFontSize:var(--awb-typography5-font-size);line-height:var(--awb-typography5-line-height);">
-													</h2>
-												</div>
 
-											</div>
-											<style type="text/css">
-												.fusion-body .fusion-builder-column-4 {
-													width: 18.3333333333% !important;
-													margin-top: 0px;
-													margin-bottom: 20px;
-												}
 
-												.fusion-builder-column-4>.fusion-column-wrapper {
-													padding-top: 0px !important;
-													padding-right: 0px !important;
-													margin-right: 5.76%;
-													padding-bottom: 0px !important;
-													padding-left: 0px !important;
-													margin-left: 5.76%;
-												}
 
-												@media only screen and (max-width:1024px) {
-													.fusion-body .fusion-builder-column-4 {
-														width: 100% !important;
-														order: 0;
-													}
-
-													.fusion-builder-column-4>.fusion-column-wrapper {
-														margin-right: 1.92%;
-														margin-left: 1.92%;
-													}
-												}
-
-												@media only screen and (max-width:640px) {
-													.fusion-body .fusion-builder-column-4 {
-														width: 100% !important;
-														order: 0;
-													}
-
-													.fusion-builder-column-4>.fusion-column-wrapper {
-														margin-right: 1.92%;
-														margin-left: 1.92%;
-													}
-												}
-											</style>
-										</div>
-										<div
-											class="fusion-layout-column fusion_builder_column fusion-builder-column-5 fusion_builder_column_1_3 1_3 fusion-flex-column">
-											<div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column"
-												style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding: 0px 0px 0px 0px;">
-												<div><span
-														class=" fusion-imageframe imageframe-none imageframe-1 hover-type-none fusion-animated"
-														data-animationType="fadeInUp" data-animationDuration="1.5"
-														data-animationOffset="top-into-view"><img decoding="async"
-															width="984" height="1264" alt="" title=""
-															src="../wp-content/uploads/2022/team/dj-1_orig.jpg"
-															class="img-responsive wp-image-290"
-															srcset="../wp-content/uploads/2022/team/dj-1_orig.jpg 200w, ../wp-content/uploads/2022/team/dj-1_orig.jpg 400w, ../wp-content/uploads/2022/team/dj-1_orig.jpg 600w, ../wp-content/uploads/2022/team/dj-1_orig.jpg 800w, ../wp-content/uploads/2022/team/dj-1_orig.jpg 984w"
-															sizes="(max-width: 640px) 100vw, 600px" /></span></div>
-											</div>
-											<style type="text/css">
-												.fusion-body .fusion-builder-column-5 {
-													width: 40.3333333333% !important;
-													margin-top: 0px;
-													margin-bottom: 20px;
-												}
-
-												.fusion-builder-column-5>.fusion-column-wrapper {
-													padding-top: 0px !important;
-													padding-right: 0px !important;
-													margin-right: 5.76%;
-													padding-bottom: 0px !important;
-													padding-left: 0px !important;
-													margin-left: 5.76%;
-												}
-
-												@media only screen and (max-width:1024px) {
-													.fusion-body .fusion-builder-column-5 {
-														width: 100% !important;
-														order: 0;
-														margin-bottom: 40px;
-													}
-
-													.fusion-builder-column-5>.fusion-column-wrapper {
-														margin-right: 1.92%;
-														margin-left: 1.92%;
-													}
-												}
-
-												@media only screen and (max-width:640px) {
-													.fusion-body .fusion-builder-column-5 {
-														width: 100% !important;
-														order: 0;
-														margin-bottom: 30px;
-													}
-
-													.fusion-builder-column-5>.fusion-column-wrapper {
-														margin-right: 1.92%;
-														margin-left: 1.92%;
-													}
-												}
-											</style>
-										</div>
-										<div
-											class="fusion-layout-column fusion_builder_column fusion-builder-column-6 fusion_builder_column_1_3 1_3 fusion-flex-column">
-											<div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column"
-												style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding: 0px 0px 0px 0px;">
-												<style type="text/css">
-													@media only screen and (max-width:1024px) {
-														.fusion-title.fusion-title-6 {
-															margin-top: -5px !important;
-															margin-right: 0px !important;
-															margin-bottom: 10px !important;
-															margin-left: 0px !important;
-														}
-													}
-
-													@media only screen and (max-width:640px) {
-														.fusion-title.fusion-title-6 {
-															margin-top: 10px !important;
-															margin-right: 0px !important;
-															margin-bottom: 10px !important;
-															margin-left: 0px !important;
-														}
-													}
-												</style>
-												<div class="fusion-title title fusion-title-6 fusion-sep-none fusion-title-text fusion-title-size-three fusion-animated"
-													style="font-size:var(--awb-typography3-font-size);margin-top:-5px;margin-right:0px;margin-bottom:10px;margin-left:0px;"
-													data-animationType="fadeInUp" data-animationDuration="1.5"
-													data-animationOffset="top-into-view">
-													<h3 class="title-heading-left fusion-responsive-typography-calculated"
-														style="font-family:&quot;DIN Regular&quot;;font-weight:400;margin:0;font-size:1em;letter-spacing:var(--awb-typography3-letter-spacing);--fontSize:20;line-height:var(--awb-typography3-line-height);">
-														Daniel Assefa</h3>
-												</div>
-												<style type="text/css">
-													@media only screen and (max-width:1024px) {
-														.fusion-title.fusion-title-7 {
-															margin-top: 0px !important;
-															margin-right: 0px !important;
-															margin-bottom: 25px !important;
-															margin-left: 0px !important;
-														}
-													}
-
-													@media only screen and (max-width:640px) {
-														.fusion-title.fusion-title-7 {
-															margin-top: 10px !important;
-															margin-right: 0px !important;
-															margin-bottom: 30px !important;
-															margin-left: 0px !important;
-														}
-													}
-												</style>
-												<div class="fusion-title title fusion-title-7 fusion-sep-none fusion-title-text fusion-title-size-four fusion-animated"
-													style="font-size:var(--awb-typography5-font-size);margin-top:0px;margin-right:0px;margin-bottom:25px;margin-left:0px;"
-													data-animationType="fadeInUp" data-animationDuration="1.5"
-													data-animationOffset="top-into-view">
-													<h4 class="title-heading-left fusion-responsive-typography-calculated"
-														style="font-family:var(--awb-typography5-font-family);font-weight:var(--awb-typography5-font-weight);font-style:var(--awb-typography5-font-style);margin:0;font-size:1em;letter-spacing:var(--awb-typography5-letter-spacing);--fontSize:14;--minFontSize:var(--awb-typography5-font-size);line-height:var(--awb-typography5-line-height);">
-														AIA, PPAR</h4>
-												</div>
-												<div class="fusion-text fusion-text-2 fusion-animated"
-													data-animationType="fadeInUp" data-animationDuration="1.5"
-													data-animationOffset="top-into-view">
-													<p>Daniel Assefa has been the Principal and Director of Architecture
-														at ZIAS for over a decade. He has a Bachelor of Architecture
-														from Virginia Polytechnic and State University and is a member
-														of the American Institute of Architects with architecture
-														licenses in Ethiopia and several states in the USA. He has been
-														perfecting his skills through 28 years of experience at several
-														global and boutique firms, including TAMS Consultants, Earth
-														Tech, and Leclere Associates in New York City.
-													</p>
-
-												</div>
-
-											</div>
-											<style type="text/css">
-												.fusion-body .fusion-builder-column-6 {
-													width: 40.3333333333% !important;
-													margin-top: 0px;
-													margin-bottom: 20px;
-												}
-
-												.fusion-builder-column-6>.fusion-column-wrapper {
-													padding-top: 0px !important;
-													padding-right: 0px !important;
-													margin-right: 5.76%;
-													padding-bottom: 0px !important;
-													padding-left: 0px !important;
-													margin-left: 5.76%;
-												}
-
-												@media only screen and (max-width:1024px) {
-													.fusion-body .fusion-builder-column-6 {
-														width: 100% !important;
-														order: 0;
-													}
-
-													.fusion-builder-column-6>.fusion-column-wrapper {
-														margin-right: 1.92%;
-														margin-left: 1.92%;
-													}
-												}
-
-												@media only screen and (max-width:640px) {
-													.fusion-body .fusion-builder-column-6 {
-														width: 100% !important;
-														order: 0;
-													}
-
-													.fusion-builder-column-6>.fusion-column-wrapper {
-														margin-right: 1.92%;
-														margin-left: 1.92%;
-													}
-												}
-											</style>
-										</div>
-									</div>
-									<style type="text/css">
-										.fusion-body .fusion-flex-container.fusion-builder-row-3 {
-											padding-top: 0px;
-											margin-top: 0px;
-											padding-right: 30px;
-											padding-bottom: 60px;
-											margin-bottom: 0px;
-											padding-left: 30px;
-										}
-
-										@media only screen and (max-width:1024px) {
-											.fusion-body .fusion-flex-container.fusion-builder-row-3 {
-												padding-top: 80px;
-												padding-bottom: 30px;
-											}
-										}
-
-										@media only screen and (max-width:640px) {
-											.fusion-body .fusion-flex-container.fusion-builder-row-3 {
-												padding-top: 40px;
-												padding-bottom: 20px;
-											}
-										}
-									</style>
-								</div>
-
-
-
-
-
-								<div class="fusion-fullwidth fullwidth-box fusion-builder-row-4 fusion-flex-container push__team nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"
-									style="background-color: var(--awb-color1);background-position: center center;background-repeat: no-repeat;border-width: 0px 0px 0px 0px;border-color:var(--awb-color3);border-style:solid;">
-									<div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start"
-										style="max-width:1705.6px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );">
-										<div
-											class="fusion-layout-column fusion_builder_column fusion-builder-column-7 fusion_builder_column_1_3 1_3 fusion-flex-column">
-											<div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column"
-												style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding: 0px 0px 0px 0px;">
-												<style type="text/css">
-													@media only screen and (max-width:1024px) {
-														.fusion-title.fusion-title-8 {
-															margin-top: 0px !important;
-															margin-right: 0px !important;
-															margin-bottom: 15px !important;
-															margin-left: 0px !important;
-														}
-													}
-
-													@media only screen and (max-width:640px) {
-														.fusion-title.fusion-title-8 {
-															margin-top: 10px !important;
-															margin-right: 0px !important;
-															margin-bottom: 10px !important;
-															margin-left: 0px !important;
-														}
-													}
-												</style>
-												<div class="fusion-title title fusion-title-8 fusion-sep-none fusion-title-text fusion-title-size-two sticky__heading--associates"
-													style="font-size:var(--awb-typography5-font-size);margin-top:0px;margin-right:0px;margin-bottom:15px;margin-left:0px;">
-													<h2 class="title-heading-left fusion-responsive-typography-calculated"
-														style="font-family:var(--awb-typography5-font-family);font-weight:var(--awb-typography5-font-weight);font-style:var(--awb-typography5-font-style);margin:0;font-size:1em;letter-spacing:var(--awb-typography5-letter-spacing);--fontSize:14;--minFontSize:var(--awb-typography5-font-size);line-height:var(--awb-typography5-line-height);">
-														ASSOCIATES</h2>
-												</div>
-											</div>
-											<style type="text/css">
-												.fusion-body .fusion-builder-column-7 {
-													width: 20% !important;
-													margin-top: 0px;
-													margin-bottom: 20px;
-												}
-
-												.fusion-builder-column-7>.fusion-column-wrapper {
-													padding-top: 0px !important;
-													padding-right: 0px !important;
-													margin-right: 5.76%;
-													padding-bottom: 0px !important;
-													padding-left: 0px !important;
-													margin-left: 5.76%;
-												}
-
-												@media only screen and (max-width:1024px) {
-													.fusion-body .fusion-builder-column-7 {
-														width: 100% !important;
-														order: 0;
-													}
-
-													.fusion-builder-column-7>.fusion-column-wrapper {
-														margin-right: 1.92%;
-														margin-left: 1.92%;
-													}
-												}
-
-												@media only screen and (max-width:640px) {
-													.fusion-body .fusion-builder-column-7 {
-														width: 100% !important;
-														order: 0;
-													}
-
-													.fusion-builder-column-7>.fusion-column-wrapper {
-														margin-right: 1.92%;
-														margin-left: 1.92%;
-													}
-												}
-											</style>
-										</div>
-										<div
-											class="fusion-layout-column fusion_builder_column fusion-builder-column-8 fusion_builder_column_2_3 2_3 fusion-flex-column">
-											<div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column"
-												style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding: 0px 0px 0px 0px;">
-												<div class="fusion-builder-row fusion-builder-row-inner fusion-row fusion-flex-align-items-flex-start"
-													style="width:104% !important;max-width:104% !important;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );">
-													<div
-														class="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-0 fusion_builder_column_inner_1_3 1_3 fusion-flex-column">
-														<div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column"
-															style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding: 0px 0px 0px 0px;">
-															<div class="fusion-person person fusion-person-left fusion-person-1 fusion-person-icon-bottom team__card fusion-animated"
-																data-animationType="fadeInUp"
-																data-animationDuration="1.5"
-																data-animationOffset="top-into-view">
-																<div class="person-shortcode-image-wrapper">
-																	<div class="person-image-container hover-type-none"
-																		style="border:0px solid rgba(242,243,245,0);-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px;">
-																		<img decoding="async"
-																			class="person-img img-responsive wp-image-553"
-																			width="574" height="764"
-																			src="../wp-content/uploads/2022/new-asset/default.jpg"
-																			alt="Vincent Hrdina"
-																			srcset="../wp-content/uploads/2022/new-asset/default.jpg"
-																			sizes="(max-width: 640px) 100vw, 574px" />
-																	</div>
-																</div>
-																<div class="person-desc"
-																	style="background-color:var(--awb-color1);padding:40px;margin-top:0;">
-																	<div class="person-author">
-																		<div class="person-author-wrapper"><span
-																				class="person-name">Kassahun
-																				Worku</span><span
-																				class="person-title">PE | PROJECT
-																				MANAGEMENT AND EXECUTION</span>
-																			<p style="margin-top:10px">Kassahun Worku is
-																				our Project Management
-																				and Execution Director. He graduated
-																				with a Master's Degree in Civil
-																				Engineering from the College of
-																				Architecture and Civil Engineering in
-																				Weimar, Germany. He has worked on a
-																				variety of projects and infrastructures
-																				like building complexes, dams, rural
-																				roads, water engineering, and
-																				landscaping with over 24 years of
-																				experience.</p>
-																			<div class="person-content fusion-clearfix">
-																			</div>
-
-																		</div>
-																	</div>
-
-																</div>
-															</div>
-															<style type="text/css">
-																.fusion-person-1 .boxed-icons .fusion-social-network-icon {
-																	border-top-width: 0px !important;
-																	border-right-width: 0px !important;
-																	border-bottom-width: 0px !important;
-																	border-left-width: 0px !important;
-																	border-color: var(--awb-color3) !important;
-																}
-
-																.fusion-person-1 .boxed-icons .fusion-social-network-icon:hover {
-																	background-color: var(--awb-color1) !important;
-																	border-color: var(--awb-color4) !important;
-																}
-
-																.fusion-person-1 .fusion-social-network-icon:hover {
-																	color: var(--awb-color4) !important;
-																}
-
-																.fusion-person-1 {
-																	margin-top: 0px;
-																	margin-right: 0px;
-																	margin-bottom: 0px;
-																	margin-left: 0px;
-																}
-															</style>
-														</div>
-														<style type="text/css">
-															.fusion-body .fusion-builder-nested-column-0 {
-																width: 50% !important;
-																margin-top: 0px;
-																margin-bottom: 20px;
-															}
-
-															.fusion-builder-nested-column-0>.fusion-column-wrapper {
-																padding-top: 0px !important;
-																padding-right: 0px !important;
-																margin-right: 5.76%;
-																padding-bottom: 0px !important;
-																padding-left: 0px !important;
-																margin-left: 5.76%;
-															}
-
-															@media only screen and (max-width:1024px) {
-																.fusion-body .fusion-builder-nested-column-0 {
-																	width: 33.3333333333% !important;
-																	order: 0;
-																}
-
-																.fusion-builder-nested-column-0>.fusion-column-wrapper {
-																	margin-right: 5.76%;
-																	margin-left: 5.76%;
-																}
-															}
-
-															@media only screen and (max-width:640px) {
-																.fusion-body .fusion-builder-nested-column-0 {
-																	width: 50% !important;
-																	order: 0;
-																}
-
-																.fusion-builder-nested-column-0>.fusion-column-wrapper {
-																	margin-right: 3.84%;
-																	margin-left: 3.84%;
-																}
-															}
-														</style>
-													</div>
-													<div
-														class="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-1 fusion_builder_column_inner_1_3 1_3 fusion-flex-column">
-														<div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column"
-															style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding: 0px 0px 0px 0px;">
-															<div class="fusion-person person fusion-person-left fusion-person-2 fusion-person-icon-bottom team__card fusion-animated"
-																data-animationType="fadeInUp"
-																data-animationDuration="1.5"
-																data-animationOffset="top-into-view">
-																<div class="person-shortcode-image-wrapper">
-																	<div class="person-image-container hover-type-none"
-																		style="border:0px solid rgba(242,243,245,0);-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px;">
-																		<img decoding="async"
-																			class="person-img img-responsive wp-image-553"
-																			width="574" height="764"
-																			src="../wp-content/uploads/2022/new-asset/default.jpg"
-																			alt="Vincent Hrdina"
-																			srcset="../wp-content/uploads/2022/new-asset/default.jpg"
-																			sizes="(max-width: 640px) 100vw, 574px" />
-																	</div>
-																</div>
-																<div class="person-desc"
-																	style="background-color:var(--awb-color1);padding:40px;margin-top:0;">
-																	<div class="person-author">
-																		<div class="person-author-wrapper"><span
-																				class="person-name">Benyam
-																				Mengistu</span><span
-																				class="person-title">
-																				PPAR | ARCHITECTURE</span>
-																			<p style="margin-top:10px">Benyam Mengistu
-																				is a director of
-																				architecture with a bachelor's degree in
-																				architecture from Addis Abeba University
-																				and is certified as a practicing
-																				professional architect. He is licensed
-																				to practice in Ethiopia, where he has
-																				been cultivating his skills with over 25
-																				years of experience.</p>
-																		</div>
-																	</div>
-																	<div class="person-content fusion-clearfix"></div>
-																</div>
-															</div>
-															<style type="text/css">
-																.fusion-person-2 .boxed-icons .fusion-social-network-icon {
-																	border-top-width: 0px !important;
-																	border-right-width: 0px !important;
-																	border-bottom-width: 0px !important;
-																	border-left-width: 0px !important;
-																	border-color: var(--awb-color3) !important;
-																}
-
-																.fusion-person-2 .boxed-icons .fusion-social-network-icon:hover {
-																	background-color: var(--awb-color1) !important;
-																	border-color: var(--awb-color4) !important;
-																}
-
-																.fusion-person-2 .fusion-social-network-icon:hover {
-																	color: var(--awb-color4) !important;
-																}
-
-																.fusion-person-2 {
-																	margin-top: 0px;
-																	margin-right: 0px;
-																	margin-bottom: 0px;
-																	margin-left: 0px;
-																}
-															</style>
-														</div>
-														<style type="text/css">
-															.fusion-body .fusion-builder-nested-column-1 {
-																width: 50% !important;
-																margin-top: 0px;
-																margin-bottom: 20px;
-															}
-
-															.fusion-builder-nested-column-1>.fusion-column-wrapper {
-																padding-top: 0px !important;
-																padding-right: 0px !important;
-																margin-right: 5.76%;
-																padding-bottom: 0px !important;
-																padding-left: 0px !important;
-																margin-left: 5.76%;
-															}
-
-															@media only screen and (max-width:1024px) {
-																.fusion-body .fusion-builder-nested-column-1 {
-																	width: 33.3333333333% !important;
-																	order: 0;
-																}
-
-																.fusion-builder-nested-column-1>.fusion-column-wrapper {
-																	margin-right: 5.76%;
-																	margin-left: 5.76%;
-																}
-															}
-
-															@media only screen and (max-width:640px) {
-																.fusion-body .fusion-builder-nested-column-1 {
-																	width: 50% !important;
-																	order: 0;
-																}
-
-																.fusion-builder-nested-column-1>.fusion-column-wrapper {
-																	margin-right: 3.84%;
-																	margin-left: 3.84%;
-																}
-															}
-														</style>
-													</div>
-													<div
-														class="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-2 fusion_builder_column_inner_1_3 1_3 fusion-flex-column">
-														<div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column"
-															style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding: 0px 0px 0px 0px;">
-															<div class="fusion-person person fusion-person-left fusion-person-3 fusion-person-icon-bottom team__card fusion-animated"
-																data-animationType="fadeInUp"
-																data-animationDuration="1.5"
-																data-animationOffset="top-into-view">
-																<div class="person-shortcode-image-wrapper">
-																	<div class="person-image-container hover-type-none"
-																		style="border:0px solid rgba(242,243,245,0);-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px;">
-																		<img decoding="async"
-																			class="person-img img-responsive wp-image-553"
-																			width="574" height="764"
-																			src="../wp-content/uploads/2022/new-asset/default.jpg"
-																			alt="Vincent Hrdina"
-																			srcset="../wp-content/uploads/2022/new-asset/default.jpg"
-																			sizes="(max-width: 640px) 100vw, 574px" />
-																	</div>
-																</div>
-																<div class="person-desc"
-																	style="background-color:var(--awb-color1);padding:40px;margin-top:0;">
-																	<div class="person-author">
-																		<div class="person-author-wrapper"><span
-																				class="person-name">Daniel
-																				Getachew</span><span
-																				class="person-title">
-																				PPSTE | STRUCTURES</span>
-																			<p style='margin-top:10px'>
-																				Daniel Getachew is a director of
-																				structural engineering with a Master's
-																				Degree in structural engineering from
-																				Addis Ababa University, Institute of
-																				Technology. He is licensed to practice
-																				in Ethiopia with a glocal experience of
-																				16 years, both in African and European
-																				engineering, bringing international
-																				insights into our projects.
-																			</p>
-																		</div>
-																	</div>
-																	<div class="person-content fusion-clearfix"></div>
-																</div>
-															</div>
-															<style type="text/css">
-																.fusion-person-3 .boxed-icons .fusion-social-network-icon {
-																	border-top-width: 0px !important;
-																	border-right-width: 0px !important;
-																	border-bottom-width: 0px !important;
-																	border-left-width: 0px !important;
-																	border-color: var(--awb-color3) !important;
-																}
-
-																.fusion-person-3 .boxed-icons .fusion-social-network-icon:hover {
-																	background-color: var(--awb-color1) !important;
-																	border-color: var(--awb-color4) !important;
-																}
-
-																.fusion-person-3 .fusion-social-network-icon:hover {
-																	color: var(--awb-color4) !important;
-																}
-
-																.fusion-person-3 {
-																	margin-top: 0px;
-																	margin-right: 0px;
-																	margin-bottom: 0px;
-																	margin-left: 0px;
-																}
-															</style>
-														</div>
-														<style type="text/css">
-															.fusion-body .fusion-builder-nested-column-2 {
-																width: 50% !important;
-																margin-top: 0px;
-																margin-bottom: 20px;
-															}
-
-															.fusion-builder-nested-column-2>.fusion-column-wrapper {
-																padding-top: 0px !important;
-																padding-right: 0px !important;
-																margin-right: 5.76%;
-																padding-bottom: 0px !important;
-																padding-left: 0px !important;
-																margin-left: 5.76%;
-															}
-
-															@media only screen and (max-width:1024px) {
-																.fusion-body .fusion-builder-nested-column-2 {
-																	width: 50% !important;
-																	order: 0;
-																}
-
-																.fusion-builder-nested-column-2>.fusion-column-wrapper {
-																	margin-right: 5.76%;
-																	margin-left: 5.76%;
-																}
-															}
-
-															@media only screen and (max-width:640px) {
-																.fusion-body .fusion-builder-nested-column-2 {
-																	width: 50% !important;
-																	order: 0;
-																}
-
-																.fusion-builder-nested-column-2>.fusion-column-wrapper {
-																	margin-right: 3.84%;
-																	margin-left: 3.84%;
-																}
-															}
-														</style>
-													</div>
-													<div
-														class="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-3 fusion_builder_column_inner_1_3 1_3 fusion-flex-column">
-														<div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column"
-															style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding: 0px 0px 0px 0px;">
-															<div class="fusion-person person fusion-person-left fusion-person-4 fusion-person-icon-bottom team__card fusion-animated"
-																data-animationType="fadeInUp"
-																data-animationDuration="1.5"
-																data-animationOffset="top-into-view">
-																<div class="person-shortcode-image-wrapper">
-																	<div class="person-image-container hover-type-none"
-																		style="border:0px solid rgba(242,243,245,0);-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px;">
-																		<img decoding="async"
-																			class="person-img img-responsive wp-image-553"
-																			width="574" height="764"
-																			src="../wp-content/uploads/2022/new-asset/default.jpg"
-																			alt="Vincent Hrdina"
-																			srcset="../wp-content/uploads/2022/new-asset/default.jpg"
-																			sizes="(max-width: 640px) 100vw, 574px" />
-																	</div>
-																</div>
-																<div class="person-desc"
-																	style="background-color:var(--awb-color1);padding:40px;margin-top:0;">
-																	<div class="person-author">
-																		<div class="person-author-wrapper"><span
-																				class="person-name">Azeb
-																				Lakew</span><span class="person-title">
-																				PPECM | CONTRACT ADMINISTRATION</span>
-																			<p style="margin-top:10px">
-																				Azeb Lakew is the Director of Contract
-																				Administration. She is a holder of a
-																				Master’s degree in Business
-																				Administration in Construction
-																				Management from Addis Ababa Science and
-																				Technology University (AASTU) with a
-																				license as a Practicing Professional
-																				Engineer in Construction Management
-																				(PPECM) in Ethiopia. With over 25 years
-																				of experience, she has a solid
-																				reputation for maintaining and
-																				implementing equitable contrast that
-																				guarantees a healthy relationship with
-																				our customers.</p>
-																		</div>
-																	</div>
-																	<div class="person-content fusion-clearfix"></div>
-																</div>
-															</div>
-															<style type="text/css">
-																.fusion-person-4 .boxed-icons .fusion-social-network-icon {
-																	border-top-width: 0px !important;
-																	border-right-width: 0px !important;
-																	border-bottom-width: 0px !important;
-																	border-left-width: 0px !important;
-																	border-color: var(--awb-color3) !important;
-																}
-
-																.fusion-person-4 .boxed-icons .fusion-social-network-icon:hover {
-																	background-color: var(--awb-color1) !important;
-																	border-color: var(--awb-color4) !important;
-																}
-
-																.fusion-person-4 .fusion-social-network-icon:hover {
-																	color: var(--awb-color4) !important;
-																}
-
-																.fusion-person-4 {
-																	margin-top: 0px;
-																	margin-right: 0px;
-																	margin-bottom: 0px;
-																	margin-left: 0px;
-																}
-															</style>
-														</div>
-														<style type="text/css">
-															.fusion-body .fusion-builder-nested-column-3 {
-																width: 50% !important;
-																margin-top: 0px;
-																margin-bottom: 20px;
-															}
-
-															.fusion-builder-nested-column-3>.fusion-column-wrapper {
-																padding-top: 0px !important;
-																padding-right: 0px !important;
-																margin-right: 5.76%;
-																padding-bottom: 0px !important;
-																padding-left: 0px !important;
-																margin-left: 5.76%;
-															}
-
-															@media only screen and (max-width:1024px) {
-																.fusion-body .fusion-builder-nested-column-3 {
-																	width: 33.3333333333% !important;
-																	order: 0;
-																}
-
-																.fusion-builder-nested-column-3>.fusion-column-wrapper {
-																	margin-right: 5.76%;
-																	margin-left: 5.76%;
-																}
-															}
-
-															@media only screen and (max-width:640px) {
-																.fusion-body .fusion-builder-nested-column-3 {
-																	width: 50% !important;
-																	order: 0;
-																}
-
-																.fusion-builder-nested-column-3>.fusion-column-wrapper {
-																	margin-right: 3.84%;
-																	margin-left: 3.84%;
-																}
-															}
-														</style>
-													</div>
-													<div
-														class="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-4 fusion_builder_column_inner_1_3 1_3 fusion-flex-column">
-														<div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column"
-															style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding: 0px 0px 0px 0px;">
-															<div class="fusion-person person fusion-person-left fusion-person-5 fusion-person-icon-bottom team__card fusion-animated"
-																data-animationType="fadeInUp"
-																data-animationDuration="1.5"
-																data-animationOffset="top-into-view">
-																<div class="person-shortcode-image-wrapper">
-																	<div class="person-image-container hover-type-none"
-																		style="border:0px solid rgba(242,243,245,0);-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px;">
-																		<img decoding="async"
-																			class="person-img img-responsive wp-image-553"
-																			width="574" height="764"
-																			src="../wp-content/uploads/2022/new-asset/default.jpg"
-																			alt="Vincent Hrdina"
-																			srcset="../wp-content/uploads/2022/new-asset/default.jpg"
-																			sizes="(max-width: 640px) 100vw, 574px" />
-																	</div>
-																</div>
-																<div class="person-desc"
-																	style="background-color:var(--awb-color1);padding:40px;margin-top:0;">
-																	<div class="person-author">
-																		<div class="person-author-wrapper"><span
-																				class="person-name">Armstrong
-																				Tilahun</span><span
-																				class="person-title">
-																				PECTM | Quantity Surveying</span>
-																			<p style="margin-top:10px">
-																				Armstrong Tilahun is the Director of
-																				Quantity Surveying. He graduated with a
-																				bachelor's degree in building
-																				construction and city development from
-																				Addis Ababa University, Ethiopian
-																				Institute of Architecture. He has a
-																				multi-disciplinary experience of over 28
-																				years in the construction, architecture,
-																				and engineering industries, practicing
-																				both in the Ethiopian and African
-																				engineering industries.
-																			</p>
-																		</div>
-																	</div>
-																	<div class="person-content fusion-clearfix"></div>
-																</div>
-															</div>
-															<style type="text/css">
-																.fusion-person-5 .boxed-icons .fusion-social-network-icon {
-																	border-top-width: 0px !important;
-																	border-right-width: 0px !important;
-																	border-bottom-width: 0px !important;
-																	border-left-width: 0px !important;
-																	border-color: var(--awb-color3) !important;
-																}
-
-																.fusion-person-5 .boxed-icons .fusion-social-network-icon:hover {
-																	background-color: var(--awb-color1) !important;
-																	border-color: var(--awb-color4) !important;
-																}
-
-																.fusion-person-5 .fusion-social-network-icon:hover {
-																	color: var(--awb-color4) !important;
-																}
-
-																.fusion-person-5 {
-																	margin-top: 0px;
-																	margin-right: 0px;
-																	margin-bottom: 0px;
-																	margin-left: 0px;
-																}
-															</style>
-														</div>
-														<style type="text/css">
-															.fusion-body .fusion-builder-nested-column-4 {
-																width: 50% !important;
-																margin-top: 0px;
-																margin-bottom: 20px;
-															}
-
-															.fusion-builder-nested-column-4>.fusion-column-wrapper {
-																padding-top: 0px !important;
-																padding-right: 0px !important;
-																margin-right: 5.76%;
-																padding-bottom: 0px !important;
-																padding-left: 0px !important;
-																margin-left: 5.76%;
-															}
-
-															@media only screen and (max-width:1024px) {
-																.fusion-body .fusion-builder-nested-column-4 {
-																	width: 33.3333333333% !important;
-																	order: 0;
-																}
-
-																.fusion-builder-nested-column-4>.fusion-column-wrapper {
-																	margin-right: 5.76%;
-																	margin-left: 5.76%;
-																}
-															}
-
-															@media only screen and (max-width:640px) {
-																.fusion-body .fusion-builder-nested-column-4 {
-																	width: 50% !important;
-																	order: 0;
-																}
-
-																.fusion-builder-nested-column-4>.fusion-column-wrapper {
-																	margin-right: 3.84%;
-																	margin-left: 3.84%;
-																}
-															}
-														</style>
-													</div>
-												</div>
-											</div>
-											<style type="text/css">
-												.fusion-body .fusion-builder-column-8 {
-													width: 66.6666666667% !important;
-													margin-top: 0px;
-													margin-bottom: 20px;
-												}
-
-												.fusion-builder-column-8>.fusion-column-wrapper {
-													padding-top: 0px !important;
-													padding-right: 0px !important;
-													margin-right: 2.88%;
-													padding-bottom: 0px !important;
-													padding-left: 0px !important;
-													margin-left: 2.88%;
-												}
-
-												@media only screen and (max-width:1024px) {
-													.fusion-body .fusion-builder-column-8 {
-														width: 100% !important;
-														order: 0;
-														margin-bottom: 0px;
-													}
-
-													.fusion-builder-column-8>.fusion-column-wrapper {
-														margin-right: 1.92%;
-														margin-left: 1.92%;
-													}
-												}
-
-												@media only screen and (max-width:640px) {
-													.fusion-body .fusion-builder-column-8 {
-														width: 100% !important;
-														order: 0;
-														margin-bottom: 0px;
-													}
-
-													.fusion-builder-column-8>.fusion-column-wrapper {
-														margin-right: 1.92%;
-														margin-left: 1.92%;
-													}
-												}
-											</style>
-										</div>
-									</div>
-									<style type="text/css">
-										.fusion-body .fusion-flex-container.fusion-builder-row-4 {
-											padding-top: 80px;
-											margin-top: 0px;
-											padding-right: 30px;
-											padding-bottom: 90px;
-											margin-bottom: 0px;
-											padding-left: 30px;
-										}
-
-										@media only screen and (max-width:1024px) {
-											.fusion-body .fusion-flex-container.fusion-builder-row-4 {
-												padding-top: 30px;
-												padding-bottom: 30px;
-											}
-										}
-
-										@media only screen and (max-width:640px) {
-											.fusion-body .fusion-flex-container.fusion-builder-row-4 {
-												padding-top: 40px;
-												padding-bottom: 20px;
-											}
-										}
-									</style>
-								</div>
 							</div>
 						</div>
 					</section>
@@ -2530,377 +1288,80 @@
 
 			<section class="fusion-tb-footer fusion-footer">
 				<div class="fusion-footer-widget-area fusion-widget-area">
-					<div class="fusion-fullwidth fullwidth-box fusion-builder-row-5 fusion-flex-container main__footer nonhundred-percent-fullwidth non-hundred-percent-height-scrolling fusion-animated"
-						style="background-color: var(--awb-color8);background-position: center center;background-repeat: no-repeat;border-width: 0px 0px 0px 0px;border-color:var(--awb-color3);border-style:solid;"
-						data-animationType="fadeInUp" data-animationDuration="1.5" data-animationOffset="top-into-view">
-						<div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start"
-							style="max-width:1705.6px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );">
-							<div
-								class="fusion-layout-column fusion_builder_column fusion-builder-column-9 fusion_builder_column_1_3 1_3 fusion-flex-column">
-								<div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column"
-									style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding: 0px 0px 0px 0px;">
-									<div>
-										<style>
-											.fusion-imageframe.imageframe-3 {
-												margin-bottom: 15px;
-											}
-										</style><span style="color:#fff;font-weight:bold;font-size:30px"
-											class=" fusion-imageframe imageframe-none imageframe-3 hover-type-none">
-											ZIAS</span>
+					<div id="qodef-page-footer-top-area">
+						<div id="qodef-page-footer-top-area-inner" class="qodef-content-grid">
+							<div style="background-color:#000"
+								class="qodef-grid qodef-layout--columns qodef-responsive--custom qodef-col-num--4 qodef-col-num--1024--2 qodef-col-num--768--2 qodef-col-num--680--1 qodef-col-num--480--1">
+								<div class="qodef-grid-inner clear">
+
+
+									<div id="text-2" class="widget widget_text" data-area="footer_top_area_column_1">
+
+										<div class="textwidget" style="padding-top:50px;">
+											<p style="width:100%;">
+
+												<a style="float:right;color:#fff!important;font-weight:500;font-size:18px;text-transform: uppercase;text-align: right;width:100%"
+													href="tel:+251 93 808 1462">+251 93 808 1462</a><br>
+
+
+
+
+
+												<a style=" float:right;color:#fff!important;font-weight:500;font-size:18px;text-transform: uppercase;"
+													href="mailto:contact@zias.com">
+													contact@zias.com</a>
+
+
+											</p>
+										</div>
 									</div>
-									<div class="fusion-text fusion-text-5 anchor anchor__light"
-										style="color:var(--awb-color2);">
-										<p>
-											© 2023 ZIAS. All right reserved. <span class="credit"></span></p>
+									<div class="qodef-grid-item" style="text-align:center">
+										<div id="text-2" class="widget widget_text"
+											data-area="footer_top_area_column_1">
+											<img src="../wp-content/uploads/2022/10/logo.png" alt="logo"
+												style="margin-top:20px;max-height:120px!important;">
+
+										</div>
+										<div id="hendon_core_separator-8" class="widget widget_hendon_core_separator"
+											data-area="footer_top_area_column_1">
+											<div class="qodef-shortcode qodef-m qodef-separator clear">
+												<div class="qodef-m-line" style="
+									  width: 1px;
+									  border-bottom-width: 1px;
+									  margin-top: 10px;
+									"></div>
+											</div>
+										</div>
 									</div>
+									<div id="text-2" class="widget widget_text" data-area="footer_top_area_column_1">
+
+										<div class="textwidget" style="padding-top:50px;">
+											<p>
+
+												<a style="color:#fff!important;font-weight:500;font-size:18px;text-transform: uppercase;"
+													href="https://www.google.com/maps/@38.943079,-77.321355,17z?hl=en"
+													target="_blank">washington dc ,usa</a><br>
+
+
+
+
+
+												<a style="color:#fff!important;font-weight:500;font-size:18px;text-transform: uppercase;"
+													href="https://www.google.com/maps?ll=8.989441,38.78613&z=16&t=m&hl=en&gl=ET&mapclient=embed&cid=3361437421803841842"
+													target="_blank">Addis Ababa, Ethiopia</a>
+
+
+											</p>
+										</div>
+									</div>
+
+
+
 								</div>
-								<style type="text/css">
-									.fusion-body .fusion-builder-column-9 {
-										width: 33.3333333333% !important;
-										margin-top: 0px;
-										margin-bottom: 0px;
-									}
-
-									.fusion-builder-column-9>.fusion-column-wrapper {
-										padding-top: 0px !important;
-										padding-right: 0px !important;
-										margin-right: 5.76%;
-										padding-bottom: 0px !important;
-										padding-left: 0px !important;
-										margin-left: 5.76%;
-									}
-
-									@media only screen and (max-width:1024px) {
-										.fusion-body .fusion-builder-column-9 {
-											width: 50% !important;
-											order: 0;
-											margin-bottom: 25px;
-										}
-
-										.fusion-builder-column-9>.fusion-column-wrapper {
-											margin-right: 3.84%;
-											margin-left: 3.84%;
-										}
-									}
-
-									@media only screen and (max-width:640px) {
-										.fusion-body .fusion-builder-column-9 {
-											width: 100% !important;
-											order: 0;
-										}
-
-										.fusion-builder-column-9>.fusion-column-wrapper {
-											margin-right: 1.92%;
-											margin-left: 1.92%;
-										}
-									}
-								</style>
-							</div>
-							<div
-								class="fusion-layout-column fusion_builder_column fusion-builder-column-10 fusion_builder_column_2_3 2_3 fusion-flex-column the_footer_menu">
-								<div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column"
-									style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding: 0px 0px 0px 0px;">
-									<div class="fusion-builder-row fusion-builder-row-inner fusion-row fusion-flex-align-items-flex-start"
-										style="width:104% !important;max-width:104% !important;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );">
-										<div
-											class="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-5 fusion_builder_column_inner_1_3 1_3 fusion-flex-column">
-											<div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column"
-												style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding: 0px 0px 0px 0px;">
-												<style type="text/css">
-													@media only screen and (max-width:1024px) {
-														.fusion-title.fusion-title-9 {
-															margin-top: 5px !important;
-															margin-right: 0px !important;
-															margin-bottom: 5px !important;
-															margin-left: 0px !important;
-														}
-													}
-
-													@media only screen and (max-width:640px) {
-														.fusion-title.fusion-title-9 {
-															margin-top: 10px !important;
-															margin-right: 0px !important;
-															margin-bottom: 10px !important;
-															margin-left: 0px !important;
-														}
-													}
-												</style>
-												<div class="fusion-title title fusion-title-3 fusion-sep-none fusion-title-text fusion-title-size-four contact_footer"
-													style="font-size:var(--awb-typography5-font-size);margin-top:5px;margin-right:0px;margin-bottom:5px;margin-left:0px;">
-													<h4 class="title-heading-left fusion-responsive-typography-calculated"
-														style="font-family:var(--awb-typography5-font-family);font-weight:var(--awb-typography5-font-weight);font-style:var(--awb-typography5-font-style);margin:0;font-size:1em;letter-spacing:var(--awb-typography5-letter-spacing);color:var(--awb-color1);--fontSize:14;--minFontSize:var(--awb-typography5-font-size);line-height:var(--awb-typography5-line-height);">
-														CONTACT</h4>
-												</div>
-												<div class="fusion-text fusion-text-3 anchor anchor__light link__list"
-													style="font-size:14px;line-height:1.5;letter-spacing:0em;color:var(--awb-color2);font-family:&quot;DIN Light&quot;;font-weight:400;">
-													<ul>
-														<li><span class="c__label"></span><a href="tel:+251 93 808 1462">+251 93 808 1462</a></li>
-														<li><span class="c__label"></span><a
-																href="">info@zias.com</a>
-														</li>
-													</ul>
-												</div>
-											</div>
-											<style type="text/css">
-												.fusion-body .fusion-builder-nested-column-5 {
-													width: 33.3333333333% !important;
-													margin-top: 0px;
-													margin-bottom: 20px;
-												}
-
-												.fusion-builder-nested-column-5>.fusion-column-wrapper {
-													padding-top: 0px !important;
-													padding-right: 0px !important;
-													margin-right: 5.76%;
-													padding-bottom: 0px !important;
-													padding-left: 0px !important;
-													margin-left: 5.76%;
-												}
-
-												@media only screen and (max-width:1024px) {
-													.fusion-body .fusion-builder-nested-column-5 {
-														width: 40% !important;
-														order: 1;
-													}
-
-													.fusion-builder-nested-column-5>.fusion-column-wrapper {
-														margin-right: 4.8%;
-														margin-left: 4.8%;
-													}
-												}
-
-												@media only screen and (max-width:640px) {
-													.fusion-body .fusion-builder-nested-column-5 {
-														width: 100% !important;
-														order: 0;
-													}
-
-													.fusion-builder-nested-column-5>.fusion-column-wrapper {
-														margin-right: 1.92%;
-														margin-left: 1.92%;
-													}
-												}
-											</style>
-										</div>
-										<div
-											class="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-6 fusion_builder_column_inner_1_3 1_3 fusion-flex-column">
-											<div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column"
-												style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding: 0px 0px 0px 0px;">
-												<style type="text/css">
-													@media only screen and (max-width:1024px) {
-														.fusion-title.fusion-title-10 {
-															margin-top: 5px !important;
-															margin-right: 0px !important;
-															margin-bottom: 5px !important;
-															margin-left: 0px !important;
-														}
-													}
-
-													@media only screen and (max-width:640px) {
-														.fusion-title.fusion-title-10 {
-															margin-top: 10px !important;
-															margin-right: 0px !important;
-															margin-bottom: 10px !important;
-															margin-left: 0px !important;
-														}
-													}
-												</style>
-												<div class="fusion-title title fusion-title-4 fusion-sep-none fusion-title-text fusion-title-size-four footer_address"
-													style="font-size:var(--awb-typography5-font-size);margin-top:5px;margin-right:0px;margin-bottom:5px;margin-left:0px;">
-													<h4 class="title-heading-left fusion-responsive-typography-calculated"
-														style="font-family:var(--awb-typography5-font-family);font-weight:var(--awb-typography5-font-weight);font-style:var(--awb-typography5-font-style);margin:0;font-size:1em;letter-spacing:var(--awb-typography5-letter-spacing);color:var(--awb-color1);--fontSize:14;--minFontSize:var(--awb-typography5-font-size);line-height:var(--awb-typography5-line-height);">
-														ADDRESS</h4>
-												</div>
-												<div class="fusion-text fusion-text-4"
-													style="font-size:14px;line-height:1.5;letter-spacing:0em;color:var(--awb-color2);font-family:&quot;DIN Light&quot;;font-weight:400;">
-													<p>Addis Ababa, Ethiopia<br />
-													</p>
-												</div>
-											</div>
-											<style type="text/css">
-												.fusion-body .fusion-builder-nested-column-6 {
-													width: 33.3333333333% !important;
-													margin-top: 0px;
-													margin-bottom: 20px;
-												}
-
-												.fusion-builder-nested-column-6>.fusion-column-wrapper {
-													padding-top: 0px !important;
-													padding-right: 0px !important;
-													margin-right: 5.76%;
-													padding-bottom: 0px !important;
-													padding-left: 0px !important;
-													margin-left: 5.76%;
-												}
-
-												@media only screen and (max-width:1024px) {
-													.fusion-body .fusion-builder-nested-column-6 {
-														width: 40% !important;
-														order: 2;
-													}
-
-													.fusion-builder-nested-column-6>.fusion-column-wrapper {
-														margin-right: 4.8%;
-														margin-left: 4.8%;
-													}
-												}
-
-												@media only screen and (max-width:640px) {
-													.fusion-body .fusion-builder-nested-column-6 {
-														width: 100% !important;
-														order: 0;
-													}
-
-													.fusion-builder-nested-column-6>.fusion-column-wrapper {
-														margin-right: 1.92%;
-														margin-left: 1.92%;
-													}
-												}
-											</style>
-										</div>
-										<div
-											class="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-7 fusion_builder_column_inner_1_3 1_3 fusion-flex-column">
-											<div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column"
-												style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding: 0px 0px 0px 0px;">
-												<style type="text/css">
-													@media only screen and (max-width:1024px) {
-														.fusion-title.fusion-title-11 {
-															margin-top: 5px !important;
-															margin-right: 0px !important;
-															margin-bottom: 5px !important;
-															margin-left: 0px !important;
-														}
-													}
-
-													@media only screen and (max-width:640px) {
-														.fusion-title.fusion-title-11 {
-															margin-top: 20px !important;
-															margin-right: 0px !important;
-															margin-bottom: 10px !important;
-															margin-left: 0px !important;
-														}
-													}
-												</style>
-												<div class="fusion-title title fusion-title-5 fusion-sep-none fusion-title-text fusion-title-size-four footer_social"
-													style="font-size:var(--awb-typography5-font-size);margin-top:5px;margin-right:0px;margin-bottom:5px;margin-left:0px;">
-													<h4 class="title-heading-left fusion-responsive-typography-calculated"
-														style="font-family:var(--awb-typography5-font-family);font-weight:var(--awb-typography5-font-weight);font-style:var(--awb-typography5-font-style);margin:0;font-size:1em;letter-spacing:var(--awb-typography5-letter-spacing);color:var(--awb-color1);--fontSize:14;--minFontSize:var(--awb-typography5-font-size);line-height:var(--awb-typography5-line-height);">
-														SOCIAL</h4>
-												</div>
-												<div class="fusion-text fusion-text-5 anchor anchor__light link__list"
-													style="font-size:14px;line-height:1.5;letter-spacing:0em;color:var(--awb-color2);font-family:&quot;DIN Light&quot;;font-weight:400;">
-													<ul>
-														<li><a href="https://www.instagram.com" target="_blank"
-																rel="noopener">Instagram</a></li>
-														<li><a href="https://www.instagram.com" target="_blank"
-																rel="noopener">Linkedin</a></li>
-														<li><a href="https://www.instagram.com" target="_blank"
-																rel="noopener">Twitter</a></li>
-													</ul>
-												</div>
-											</div>
-											<style type="text/css">
-												.fusion-body .fusion-builder-nested-column-7 {
-													width: 33.3333333333% !important;
-													margin-top: 0px;
-													margin-bottom: 20px;
-												}
-
-												.fusion-builder-nested-column-7>.fusion-column-wrapper {
-													padding-top: 0px !important;
-													padding-right: 0px !important;
-													margin-right: 5.76%;
-													padding-bottom: 0px !important;
-													padding-left: 0px !important;
-													margin-left: -40px;
-												}
-
-												@media only screen and (max-width:1024px) {
-													.fusion-body .fusion-builder-nested-column-7 {
-														width: 20% !important;
-														order: 3;
-													}
-
-													.fusion-builder-nested-column-7>.fusion-column-wrapper {
-														margin-right: 9.6%;
-														margin-left: -40px;
-													}
-												}
-
-												@media only screen and (max-width:640px) {
-													.fusion-body .fusion-builder-nested-column-7 {
-														width: 100% !important;
-														order: 0;
-													}
-
-													.fusion-builder-nested-column-7>.fusion-column-wrapper {
-														margin-right: 1.92%;
-														margin-left: 1.92%;
-													}
-												}
-											</style>
-										</div>
-									</div>
-								</div>
-								<style type="text/css">
-									.fusion-body .fusion-builder-column-10 {
-										width: 66.6666666667% !important;
-										margin-top: 0px;
-										margin-bottom: 0px;
-									}
-
-									.fusion-builder-column-10>.fusion-column-wrapper {
-										padding-top: 0px !important;
-										padding-right: 0px !important;
-										margin-right: 2.88%;
-										padding-bottom: 0px !important;
-										padding-left: 0px !important;
-										margin-left: 2.88%;
-									}
-
-									@media only screen and (max-width:1024px) {
-										.fusion-body .fusion-builder-column-10 {
-											width: 100% !important;
-											order: 0;
-										}
-
-										.fusion-builder-column-10>.fusion-column-wrapper {
-											margin-right: 1.92%;
-											margin-left: 1.92%;
-										}
-									}
-
-									@media only screen and (max-width:640px) {
-										.fusion-body .fusion-builder-column-10 {
-											width: 100% !important;
-											order: 0;
-										}
-
-										.fusion-builder-column-10>.fusion-column-wrapper {
-											margin-right: 1.92%;
-											margin-left: 1.92%;
-										}
-									}
-								</style>
+								<div style="padding:20px 100px;width:100vw;text-align:center;color:#fff!important;">
+									© 2023 ZIAS. All right reserved.</div>
 							</div>
 						</div>
-						<style type="text/css">
-							.fusion-body .fusion-flex-container.fusion-builder-row-5 {
-								padding-top: 60px;
-								margin-top: 0px;
-								padding-right: 30px;
-								padding-bottom: 20px;
-								margin-bottom: 0px;
-								padding-left: 30px;
-							}
-
-							@media only screen and (max-width:1024px) {
-								.fusion-body .fusion-flex-container.fusion-builder-row-5 {
-									padding-top: 60px;
-									padding-bottom: 30px;
-								}
-							}
-						</style>
 					</div>
 				</div>
 			</section>

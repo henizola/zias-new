@@ -1317,13 +1317,7 @@
     font-size: 2vw;
     line-height: 1.2;
   }
-  a {
-    cursor: none;
-  }
-  a:hover,
-  a:focus {
-    cursor: none;
-  }
+  
   .slidercontrols {
     position: absolute;
     top: 0;
@@ -1380,7 +1374,7 @@
     line-height: 2.6383vw;
     display: inline-block;
     position: relative;
-    cursor: none;
+
     color: #fa343d;
   }
   .slidercontrols .mtitle .btnmore:before {
@@ -3417,7 +3411,7 @@
     border-radius: 50%;
     -webkit-backface-visibility: hidden;
     opacity: 0;
-    cursor: none;
+    
     z-index: 1000;
     pointer-events: none;
     transform-style: preserve-3d;
@@ -3447,7 +3441,7 @@
     -ms-transform: scale(0, 0);
     -webkit-transform: scale(0, 0);
     transform: scale(0, 0);
-    cursor: none;
+    
     z-index: 1000;
     pointer-events: none;
     transform-style: preserve-3d;
@@ -3467,7 +3461,7 @@
     -webkit-border-radius: 50%;
     border-radius: 50%;
     -webkit-backface-visibility: hidden;
-    cursor: none;
+    
     z-index: 1000;
     pointer-events: none;
     will-change: transform;
@@ -3533,7 +3527,7 @@
     -ms-transform: scale(0, 0);
     -webkit-transform: scale(0, 0);
     transform: scale(0, 0);
-    cursor: none;
+    
     z-index: 1000;
     pointer-events: none;
     transform-style: preserve-3d;
@@ -3941,7 +3935,7 @@
     background: transparent;
     padding: 0.85106vw 0 1.70213vw;
     outline: none;
-    cursor: none;
+    
   }
   .startproject .inputstyle {
     display: block;
@@ -7688,7 +7682,7 @@ address, dl, fieldset, figure, ol, p, pre, ul{
     max-height: 650px;
     overflow: hidden;
     z-index: 3;
-    cursor: none !important;
+  
 }
 
 .project__thumb {
