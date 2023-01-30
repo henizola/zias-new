@@ -127,7 +127,13 @@ overflow: hidden;
   }
 
   @media screen and (max-width:500px) {
-   
+   .bottom__gradient{
+    height: 85vh!important;
+    margin-left:0%;
+  transform:translateX(0%);
+  padding:20px;
+  text-align: center!important;
+   }
     .fusion-header-has-flyout-menu-content{
         padding:0 25px!important;
     }
