@@ -24,3 +24,22 @@ html.avada-is-100-percent-template #main.width-100{
 max-width: 50vw;
 font-size: 20px!important;
 }
+.topp{
+    padding-top: 200px;
+}
+
+@media screen and (max-width:500px) {
+    .topp{
+        padding-top: 100px!important;
+    }
+    .about-p{
+        padding:0!important;
+        max-width:100vw!important;
+        width:100%!important;
+    }
+    .intro{
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+    }
+    
+}

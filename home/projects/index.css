@@ -58,6 +58,20 @@
     margin-bottom:100px;
     grid-gap: 40px;
   }
+
+  @media screen and (max-width:500px) {
+    .flexed{
+      display: grid!important;
+      grid-template-columns: 1fr !important;
+      margin-top:50px;
+      margin-bottom:100px;
+      grid-gap: 40px;
+    }
+    .top-0{
+      margin-top: 100px!important;
+    }
+   
+  }
   .hero{
     height:50vh;
     width: 100%;
@@ -8661,4 +8675,13 @@ ol li.flex-control-nav.flex-control-paging:before{
 }
 
 /* Project Sliders Sign  End  */
-
+.f-s-1{
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: 700!important;
+  font-family: 'Montserrat', sans-serif !important;
+}

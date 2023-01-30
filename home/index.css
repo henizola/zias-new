@@ -115,3 +115,54 @@ overflow: hidden;
     color:#fff!important;
     background: #bcb832!important;
   }
+
+
+
+
+
+  @media screen and ( min-width:500px) {
+    .fusion-header-has-flyout-menu .fusion-flyout-menu-bg, .fusion-header-has-flyout-menu .fusion-flyout-menu{
+        display: none!important;
+    }
+  }
+
+  @media screen and (max-width:500px) {
+   
+    .fusion-header-has-flyout-menu-content{
+        padding:0 25px!important;
+    }
+    .fusion-mobile-menu-design-flyout.fusion-header-v7 .fusion-main-menu{
+        box-shadow: none!important;
+    }
+    .fusion-main-menu .fusion-main-menu-sticky{
+        box-shadow: none!important;
+    }
+    .header-logo{
+        height: 60px;
+    }
+    .intro{
+        padding-top: 100px!important;
+    }
+    .top-flex,.bottom-flex{
+        grid-template-columns:1fr;
+        padding:0
+    }
+    .qodef-grid-inner{
+        grid-template-columns: 1fr;
+        text-align: center!important;
+    }.textwidget{
+        padding-top:0!important
+    }
+    .textwidget a{
+        text-align: center!important;
+    }
+    .cont{
+        padding-top: 0!important;
+    }
+  }
+
+  .fusion-toggle-icon-line{
+    color:#000!important;
+    fill:#000!important;
+  }
+
