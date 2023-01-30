@@ -1,0 +1,37 @@
+
+.main {
+  display: block;
+  width: 90%;
+  margin: 1em auto;
+  -moz-columns: 200px;
+  columns: 200px;
+  -moz-column-gap: 1em;
+  column-gap: 1em;
+  break-inside: avoid;
+}
+figure {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 0.5em;
+  position: relative;
+}
+figure img {
+  width: 100%;
+  display: block;
+  /* filter: grayscale(75%); */
+  /* transition: 0.5s filter; */
+  cursor: zoom-in;
+}
+img:hover {
+  /* filter: none; */
+}
+figcaption {
+  position: absolute;
+  padding: 0.2em;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  color: white;
+  text-align: center;
+  background-color: hsla(0, 0%, 0%, 0.5);
+}

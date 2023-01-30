@@ -19,3 +19,8 @@ html.avada-is-100-percent-template #main.width-100{
 .title{
     margin-top:200px;width: 100%;text-align: center;color:#bcb832!important;margin-bottom:100px
 }
+
+.about-p{
+max-width: 50vw;
+font-size: 20px!important;
+}

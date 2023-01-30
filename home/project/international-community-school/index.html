@@ -5,6 +5,29 @@
 
 
 <head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="./index.css">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=Orbitron:wght@400;500;600;700;800;900&display=swap"
+		rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=Orbitron:wght@400;500;600;700;800;900&display=swap"
+		rel="stylesheet">
+	<style>
+		* {
+			font-family: 'Montserrat', sans-serif !important;
+		}
+	</style>
+	<link rel="stylesheet" href="../../index.css">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -26,9 +49,7 @@
 
 	<!-- This site is optimized with the Yoast SEO plugin v19.0 - https://yoast.com/wordpress/plugins/seo/ -->
 	<title>International community school - ZIAS</title>
-	<meta name="description"
-	
-	<link rel="canonical" href="index.html" />
+	<meta name="description" <link rel="canonical" href="index.html" />
 	<meta name="title" content="Zias">
 	<meta name="keywords" content="architecture, zias,">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -793,8 +814,11 @@
 				<div
 					class="fusion-header-v7 fusion-logo-alignment fusion-logo-left fusion-sticky-menu- fusion-sticky-logo- fusion-mobile-logo-  fusion-mobile-menu-design-flyout fusion-header-has-flyout-menu">
 					<div class="fusion-header-sticky-height"></div>
-					<div class="fusion-header  fusion-animated " data-animationtype="fadeInUp"
-						data-animationduration="1.5" data-animationoffset="top-into-view">
+					<div class="new-header" style="
+		background-color:white!important;
+		position:fixed!important;top:0!important;
+		width:100vw;
+		">
 						<div class="fusion-row fusion-middle-logo-menu">
 							<div class="fusion-header-has-flyout-menu-content">
 								<nav class="fusion-main-menu fusion-main-menu-sticky" aria-label="Main Menu">
@@ -827,26 +851,27 @@
 											aria-label="Close Search" class="fusion-close-search"></a>
 									</div>
 									<ul id="menu-main-menu" class="fusion-menu fusion-middle-logo-ul">
+										<li></li>
 										<li id="menu-item-24"
 											class="menu__project menu-item menu-item-type-post_type menu-item-object-page menu-item-24"
 											data-classes="menu__project" data-item-id="24"><a
 												href="../../projects/index.html"
 												class="fusion-top-level-link fusion-textcolor-highlight"><span
-													class="menu-text">Projects</span></a></li>
+													class='header-linkss'>Projects</span></a></li>
 										<li id="menu-item-23"
 											class="menu__press menu-item menu-item-type-post_type menu-item-object-page menu-item-23"
 											data-classes="menu__press" data-item-id="23"><a
 												href="../../services/index.html"
 												class="fusion-top-level-link fusion-textcolor-highlight"><span
-													class="menu-text">Services</span></a></li>
+													class='header-linkss'>Services</span></a></li>
 										<li class="fusion-middle-logo-menu-logo fusion-logo" data-margin-top="20px"
 											data-margin-bottom="20px" data-margin-left="0px" data-margin-right="0px">
 											<a class="fusion-logo-link" href="../../index.html">
 
 												<!-- standard logo -->
-
 												<img src="../../wp-content/uploads/2022/10/logo.png" alt="logo"
 													style="max-height:90px">
+
 
 											</a>
 										</li>
@@ -855,13 +880,13 @@
 											data-classes="menu__about" data-item-id="20"><a
 												href="../../about/index.html"
 												class="fusion-top-level-link fusion-textcolor-highlight"><span
-													class="menu-text">About</span></a></li>
+													class='header-linkss'>About</span></a></li>
 										<li id="menu-item-21"
 											class="menu__contact menu-item menu-item-type-post_type menu-item-object-page menu-item-21"
 											data-classes="menu__contact" data-item-id="21"><a
 												href="../../contact/index.html"
 												class="fusion-top-level-link fusion-textcolor-highlight"><span
-													class="menu-text">Contact</span></a></li>
+													class='header-linkss'>Contact</span></a></li>
 									</ul>
 								</nav>
 								<div class="fusion-flyout-menu-icons fusion-flyout-mobile-menu-icons">
@@ -877,10 +902,9 @@
 								</div>
 
 
-								<div class="fusion-flyout-menu-bg"></div>
 
-								<nav class="fusion-mobile-nav-holder fusion-flyout-menu fusion-flyout-mobile-menu"
-									aria-label="Main Menu Mobile"></nav>
+
+
 
 							</div>
 						</div>
@@ -1355,378 +1379,79 @@
 
 	<section class="fusion-tb-footer fusion-footer">
 		<div class="fusion-footer-widget-area fusion-widget-area">
-			<div class="fusion-fullwidth fullwidth-box fusion-builder-row-3 fusion-flex-container main__footer nonhundred-percent-fullwidth non-hundred-percent-height-scrolling fusion-animated"
-				style="background-color: var(--awb-color8);background-position: center center;background-repeat: no-repeat;border-width: 0px 0px 0px 0px;border-color:var(--awb-color3);border-style:solid;"
-				data-animationType="fadeInUp" data-animationDuration="1.5" data-animationOffset="top-into-view">
-				<div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start"
-					style="max-width:1705.6px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );">
-					<div
-						class="fusion-layout-column fusion_builder_column fusion-builder-column-2 fusion_builder_column_1_3 1_3 fusion-flex-column">
-						<div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column"
-							style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding: 0px 0px 0px 0px;">
-							<div>
-								<style>
-									.fusion-imageframe.imageframe-3 {
-										margin-bottom: 15px;
-									}
-								</style><span style="color:#fff;font-weight:bold;font-size:30px"
-									class=" fusion-imageframe imageframe-none imageframe-3 hover-type-none">
-									ZIAS</span>
+			<div id="qodef-page-footer-top-area">
+				<div id="qodef-page-footer-top-area-inner" class="qodef-content-grid">
+					<div style="background-color:#000"
+						class="qodef-grid qodef-layout--columns qodef-responsive--custom qodef-col-num--4 qodef-col-num--1024--2 qodef-col-num--768--2 qodef-col-num--680--1 qodef-col-num--480--1">
+						<div class="qodef-grid-inner clear">
+
+
+							<div id="text-2" class="widget widget_text" data-area="footer_top_area_column_1">
+
+								<div class="textwidget" style="padding-top:50px;">
+									<p style="width:100%;">
+
+										<a style="float:right;color:#fff!important;font-weight:500;font-size:18px;text-transform: uppercase;text-align: right;width:100%"
+											href="tel:+251 93 808 1462">+251 93 808 1462</a><br>
+
+
+
+
+
+										<a style=" float:right;color:#fff!important;font-weight:500;font-size:18px;text-transform: uppercase;"
+											href="mailto:contact@zias.com">
+											contact@zias.com</a>
+
+
+									</p>
+								</div>
 							</div>
-							<div class="fusion-text fusion-text-5 anchor anchor__light"
-								style="color:var(--awb-color2);">
-								<p>
-									© 2023 ZIAS. All right reserved. <span class="credit"></span></p>
+							<div class="qodef-grid-item" style="text-align:center">
+								<div id="text-2" class="widget widget_text" data-area="footer_top_area_column_1">
+									<img src="../../wp-content/uploads/2022/10/logo.png" alt="logo"
+										style="margin-top:20px;max-height:120px!important;">
+
+								</div>
+								<div id="hendon_core_separator-8" class="widget widget_hendon_core_separator"
+									data-area="footer_top_area_column_1">
+									<div class="qodef-shortcode qodef-m qodef-separator clear">
+										<div class="qodef-m-line" style="
+                              width: 1px;
+                              border-bottom-width: 1px;
+                              margin-top: 10px;
+                            "></div>
+									</div>
+								</div>
 							</div>
+							<div id="text-2" class="widget widget_text" data-area="footer_top_area_column_1">
+
+								<div class="textwidget" style="padding-top:50px;">
+									<p>
+
+										<a style="color:#fff!important;font-weight:500;font-size:18px;text-transform: uppercase;"
+											href="https://www.google.com/maps/@38.943079,-77.321355,17z?hl=en"
+											target="_blank">washington dc ,usa</a><br>
+
+
+
+
+
+										<a style="color:#fff!important;font-weight:500;font-size:18px;text-transform: uppercase;"
+											href="https://www.google.com/maps?ll=8.989441,38.78613&z=16&t=m&hl=en&gl=ET&mapclient=embed&cid=3361437421803841842"
+											target="_blank">Addis Ababa, Ethiopia</a>
+
+
+									</p>
+								</div>
+							</div>
+
+
+
 						</div>
-						<style type="text/css">
-							.fusion-body .fusion-builder-column-2 {
-								width: 33.3333333333% !important;
-								margin-top: 0px;
-								margin-bottom: 0px;
-							}
-
-							.fusion-builder-column-2>.fusion-column-wrapper {
-								padding-top: 0px !important;
-								padding-right: 0px !important;
-								margin-right: 5.76%;
-								padding-bottom: 0px !important;
-								padding-left: 0px !important;
-								margin-left: 5.76%;
-							}
-
-							@media only screen and (max-width:1024px) {
-								.fusion-body .fusion-builder-column-2 {
-									width: 50% !important;
-									order: 0;
-									margin-bottom: 25px;
-								}
-
-								.fusion-builder-column-2>.fusion-column-wrapper {
-									margin-right: 3.84%;
-									margin-left: 3.84%;
-								}
-							}
-
-							@media only screen and (max-width:640px) {
-								.fusion-body .fusion-builder-column-2 {
-									width: 100% !important;
-									order: 0;
-								}
-
-								.fusion-builder-column-2>.fusion-column-wrapper {
-									margin-right: 1.92%;
-									margin-left: 1.92%;
-								}
-							}
-						</style>
-					</div>
-					<div
-						class="fusion-layout-column fusion_builder_column fusion-builder-column-3 fusion_builder_column_2_3 2_3 fusion-flex-column the_footer_menu">
-						<div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column"
-							style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding: 0px 0px 0px 0px;">
-							<div class="fusion-builder-row fusion-builder-row-inner fusion-row fusion-flex-align-items-flex-start"
-								style="width:104% !important;max-width:104% !important;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );">
-								<div
-									class="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-0 fusion_builder_column_inner_1_3 1_3 fusion-flex-column">
-									<div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column"
-										style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding: 0px 0px 0px 0px;">
-										<style type="text/css">
-											@media only screen and (max-width:1024px) {
-												.fusion-title.fusion-title-2 {
-													margin-top: 5px !important;
-													margin-right: 0px !important;
-													margin-bottom: 5px !important;
-													margin-left: 0px !important;
-												}
-											}
-
-											@media only screen and (max-width:640px) {
-												.fusion-title.fusion-title-2 {
-													margin-top: 10px !important;
-													margin-right: 0px !important;
-													margin-bottom: 10px !important;
-													margin-left: 0px !important;
-												}
-											}
-										</style>
-										<div class="fusion-title title fusion-title-2 fusion-sep-none fusion-title-text fusion-title-size-four contact_footer"
-											style="font-size:var(--awb-typography5-font-size);margin-top:5px;margin-right:0px;margin-bottom:5px;margin-left:0px;">
-											<h4 class="title-heading-left fusion-responsive-typography-calculated"
-												style="font-family:var(--awb-typography5-font-family);font-weight:var(--awb-typography5-font-weight);font-style:var(--awb-typography5-font-style);margin:0;font-size:1em;letter-spacing:var(--awb-typography5-letter-spacing);color:var(--awb-color1);--fontSize:14;--minFontSize:var(--awb-typography5-font-size);line-height:var(--awb-typography5-line-height);">
-												CONTACT</h4>
-										</div>
-										<div class="fusion-text fusion-text-2 anchor anchor__light link__list"
-											style="font-size:14px;line-height:1.5;letter-spacing:0em;color:var(--awb-color2);font-family:&quot;DIN Light&quot;;font-weight:400;">
-											<ul>
-												<li><span class="c__label"></span><a href="tel:+251 93 808 1462">+251 93 808 1462</a></li>
-												<li><span class="c__label"></span><a
-														href="">info@zias..com</a>
-												</li>
-											</ul>
-										</div>
-									</div>
-									<style type="text/css">
-										.fusion-body .fusion-builder-nested-column-0 {
-											width: 33.3333333333% !important;
-											margin-top: 0px;
-											margin-bottom: 20px;
-										}
-
-										.fusion-builder-nested-column-0>.fusion-column-wrapper {
-											padding-top: 0px !important;
-											padding-right: 0px !important;
-											margin-right: 5.76%;
-											padding-bottom: 0px !important;
-											padding-left: 0px !important;
-											margin-left: 5.76%;
-										}
-
-										@media only screen and (max-width:1024px) {
-											.fusion-body .fusion-builder-nested-column-0 {
-												width: 40% !important;
-												order: 1;
-											}
-
-											.fusion-builder-nested-column-0>.fusion-column-wrapper {
-												margin-right: 4.8%;
-												margin-left: 4.8%;
-											}
-										}
-
-										@media only screen and (max-width:640px) {
-											.fusion-body .fusion-builder-nested-column-0 {
-												width: 100% !important;
-												order: 0;
-											}
-
-											.fusion-builder-nested-column-0>.fusion-column-wrapper {
-												margin-right: 1.92%;
-												margin-left: 1.92%;
-											}
-										}
-									</style>
-								</div>
-								<div
-									class="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-1 fusion_builder_column_inner_1_3 1_3 fusion-flex-column">
-									<div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column"
-										style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding: 0px 0px 0px 0px;">
-										<style type="text/css">
-											@media only screen and (max-width:1024px) {
-												.fusion-title.fusion-title-3 {
-													margin-top: 5px !important;
-													margin-right: 0px !important;
-													margin-bottom: 5px !important;
-													margin-left: 0px !important;
-												}
-											}
-
-											@media only screen and (max-width:640px) {
-												.fusion-title.fusion-title-3 {
-													margin-top: 10px !important;
-													margin-right: 0px !important;
-													margin-bottom: 10px !important;
-													margin-left: 0px !important;
-												}
-											}
-										</style>
-										<div class="fusion-title title fusion-title-3 fusion-sep-none fusion-title-text fusion-title-size-four footer_address"
-											style="font-size:var(--awb-typography5-font-size);margin-top:5px;margin-right:0px;margin-bottom:5px;margin-left:0px;">
-											<h4 class="title-heading-left fusion-responsive-typography-calculated"
-												style="font-family:var(--awb-typography5-font-family);font-weight:var(--awb-typography5-font-weight);font-style:var(--awb-typography5-font-style);margin:0;font-size:1em;letter-spacing:var(--awb-typography5-letter-spacing);color:var(--awb-color1);--fontSize:14;--minFontSize:var(--awb-typography5-font-size);line-height:var(--awb-typography5-line-height);">
-												ADDRESS</h4>
-										</div>
-										<div class="fusion-text fusion-text-3"
-											style="font-size:14px;line-height:1.5;letter-spacing:0em;color:var(--awb-color2);font-family:&quot;DIN Light&quot;;font-weight:400;">
-											<p>Addis Ababa,<br />
-												Ethiopia</p>
-										</div>
-									</div>
-									<style type="text/css">
-										.fusion-body .fusion-builder-nested-column-1 {
-											width: 33.3333333333% !important;
-											margin-top: 0px;
-											margin-bottom: 20px;
-										}
-
-										.fusion-builder-nested-column-1>.fusion-column-wrapper {
-											padding-top: 0px !important;
-											padding-right: 0px !important;
-											margin-right: 5.76%;
-											padding-bottom: 0px !important;
-											padding-left: 0px !important;
-											margin-left: 5.76%;
-										}
-
-										@media only screen and (max-width:1024px) {
-											.fusion-body .fusion-builder-nested-column-1 {
-												width: 40% !important;
-												order: 2;
-											}
-
-											.fusion-builder-nested-column-1>.fusion-column-wrapper {
-												margin-right: 4.8%;
-												margin-left: 4.8%;
-											}
-										}
-
-										@media only screen and (max-width:640px) {
-											.fusion-body .fusion-builder-nested-column-1 {
-												width: 100% !important;
-												order: 0;
-											}
-
-											.fusion-builder-nested-column-1>.fusion-column-wrapper {
-												margin-right: 1.92%;
-												margin-left: 1.92%;
-											}
-										}
-									</style>
-								</div>
-								<div
-									class="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-2 fusion_builder_column_inner_1_3 1_3 fusion-flex-column">
-									<div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column"
-										style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding: 0px 0px 0px 0px;">
-										<style type="text/css">
-											@media only screen and (max-width:1024px) {
-												.fusion-title.fusion-title-4 {
-													margin-top: 5px !important;
-													margin-right: 0px !important;
-													margin-bottom: 5px !important;
-													margin-left: 0px !important;
-												}
-											}
-
-											@media only screen and (max-width:640px) {
-												.fusion-title.fusion-title-4 {
-													margin-top: 20px !important;
-													margin-right: 0px !important;
-													margin-bottom: 10px !important;
-													margin-left: 0px !important;
-												}
-											}
-										</style>
-										<div class="fusion-title title fusion-title-4 fusion-sep-none fusion-title-text fusion-title-size-four footer_social"
-											style="font-size:var(--awb-typography5-font-size);margin-top:5px;margin-right:0px;margin-bottom:5px;margin-left:0px;">
-											<h4 class="title-heading-left fusion-responsive-typography-calculated"
-												style="font-family:var(--awb-typography5-font-family);font-weight:var(--awb-typography5-font-weight);font-style:var(--awb-typography5-font-style);margin:0;font-size:1em;letter-spacing:var(--awb-typography5-letter-spacing);color:var(--awb-color1);--fontSize:14;--minFontSize:var(--awb-typography5-font-size);line-height:var(--awb-typography5-line-height);">
-												SOCIAL</h4>
-										</div>
-										<div class="fusion-text fusion-text-4 anchor anchor__light link__list"
-											style="font-size:14px;line-height:1.5;letter-spacing:0em;color:var(--awb-color2);font-family:&quot;DIN Light&quot;;font-weight:400;">
-											<ul>
-												<li><a href="https://www.instagram.com/" target="_blank"
-														rel="noopener">Instagram</a></li>
-												<li><a href="https://www.instagram.com/" target="_blank"
-														rel="noopener">Linkedin</a></li>
-												<li><a href="https://www.instagram.com/" target="_blank"
-														rel="noopener">Twitter</a></li>
-
-											</ul>
-										</div>
-									</div>
-									<style type="text/css">
-										.fusion-body .fusion-builder-nested-column-2 {
-											width: 33.3333333333% !important;
-											margin-top: 0px;
-											margin-bottom: 20px;
-										}
-
-										.fusion-builder-nested-column-2>.fusion-column-wrapper {
-											padding-top: 0px !important;
-											padding-right: 0px !important;
-											margin-right: 5.76%;
-											padding-bottom: 0px !important;
-											padding-left: 0px !important;
-											margin-left: -40px;
-										}
-
-										@media only screen and (max-width:1024px) {
-											.fusion-body .fusion-builder-nested-column-2 {
-												width: 20% !important;
-												order: 3;
-											}
-
-											.fusion-builder-nested-column-2>.fusion-column-wrapper {
-												margin-right: 9.6%;
-												margin-left: -40px;
-											}
-										}
-
-										@media only screen and (max-width:640px) {
-											.fusion-body .fusion-builder-nested-column-2 {
-												width: 100% !important;
-												order: 0;
-											}
-
-											.fusion-builder-nested-column-2>.fusion-column-wrapper {
-												margin-right: 1.92%;
-												margin-left: 1.92%;
-											}
-										}
-									</style>
-								</div>
-							</div>
-						</div>
-						<style type="text/css">
-							.fusion-body .fusion-builder-column-3 {
-								width: 66.6666666667% !important;
-								margin-top: 0px;
-								margin-bottom: 0px;
-							}
-
-							.fusion-builder-column-3>.fusion-column-wrapper {
-								padding-top: 0px !important;
-								padding-right: 0px !important;
-								margin-right: 2.88%;
-								padding-bottom: 0px !important;
-								padding-left: 0px !important;
-								margin-left: 2.88%;
-							}
-
-							@media only screen and (max-width:1024px) {
-								.fusion-body .fusion-builder-column-3 {
-									width: 100% !important;
-									order: 0;
-								}
-
-								.fusion-builder-column-3>.fusion-column-wrapper {
-									margin-right: 1.92%;
-									margin-left: 1.92%;
-								}
-							}
-
-							@media only screen and (max-width:640px) {
-								.fusion-body .fusion-builder-column-3 {
-									width: 100% !important;
-									order: 0;
-								}
-
-								.fusion-builder-column-3>.fusion-column-wrapper {
-									margin-right: 1.92%;
-									margin-left: 1.92%;
-								}
-							}
-						</style>
+						<div style="padding:20px 100px;width:100vw;text-align:center;color:#fff!important;">
+							© 2023 ZIAS. All right reserved.</div>
 					</div>
 				</div>
-				<style type="text/css">
-					.fusion-body .fusion-flex-container.fusion-builder-row-3 {
-						padding-top: 60px;
-						margin-top: 0px;
-						padding-right: 30px;
-						padding-bottom: 20px;
-						margin-bottom: 0px;
-						padding-left: 30px;
-					}
-
-					@media only screen and (max-width:1024px) {
-						.fusion-body .fusion-flex-container.fusion-builder-row-3 {
-							padding-top: 60px;
-							padding-bottom: 30px;
-						}
-					}
-				</style>
 			</div>
 		</div>
 	</section>
